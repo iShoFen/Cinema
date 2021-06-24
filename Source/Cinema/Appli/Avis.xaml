@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="Appli.Avis"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             x:Name="Root"
+             d:DesignHeight="450" d:DesignWidth="1200">
+
+    <DockPanel>
+        <Button Name="DeleteButton"
+                DockPanel.Dock="Left" 
+                VerticalAlignment="Top"
+                Style="{StaticResource ControlButton}"
+                Visibility="{Binding Visibility, ElementName=Root}">
+            <Button.Content>
+                <Viewbox>
+                    <Image Source="Images/Logos/cross.png"/>
+                </Viewbox>
+            </Button.Content>
+        </Button>
+        <Grid DockPanel.Dock="Top" MaxWidth="1500">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="6*"/>
+            </Grid.ColumnDefinitions>
+
+            <Ellipse Grid.Column ="0" Grid.Row="0" Height="100" Width="100">
+                <Ellipse.Fill>
+                    <ImageBrush  Stretch="UniformToFill" ImageSource="{Binding Image, Converter={StaticResource PhotoConverter}, 
+                ConverterParameter=User, FallbackValue=pack://application:\,\,\,/Images/Logos/utilisateur.png, ElementName=Root}"/>
+                </Ellipse.Fill>
+            </Ellipse>
+
+            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                <TextBlock Style="{StaticResource Titre}">
+                    <Run Text="{Binding Pseudo, ElementName=Root, FallbackValue=Pseudo}" FontWeight="DemiBold" FontFamily="David"/>
+                    <Run Text="{Binding Note, Converter={StaticResource NoteAvisConverter}, ElementName=Root, FallbackValue=★★★★★}" FontWeight="DemiBold" FontFamily="David"/>
+                </TextBlock>
+
+                <TextBlock Style="{StaticResource Text}">
+                    <Run Text="{Binding Text, ElementName=Root, FallbackValue=Un commentaire}"/>
+                </TextBlock>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</UserControl>

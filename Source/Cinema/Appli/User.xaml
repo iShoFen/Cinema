@@ -1,0 +1,162 @@
+﻿<UserControl x:Class="Appli.User"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <Style x:Key="Compte" TargetType="CheckBox" BasedOn="{StaticResource MaterialDesignAccentCheckBox}">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Background" Value="{StaticResource PrimaryHueDarkForegroundBrush}"/>
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+        
+        <Style x:Key="UserTextButton" TargetType="Button" BasedOn="{StaticResource TextButton}">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+    </UserControl.Resources> 
+
+    <DockPanel>
+        <DockPanel Name="Info" DockPanel.Dock="Top" HorizontalAlignment="Center">
+
+            <Grid DockPanel.Dock="Left" Margin="10" HorizontalAlignment="Right">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Ellipse Grid.Column ="0" Grid.Row="0" Height="150" Width="150">
+                    <Ellipse.Fill>
+                        <ImageBrush x:Name="Profil"
+                            Stretch="UniformToFill"
+                            ImageSource="{Binding ConnectedUserPhoto, 
+                                Converter={StaticResource PhotoConverter}, 
+                                ConverterParameter=User}"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+
+                <Button Grid.Column="0" Grid.Row="1" 
+                        Style="{StaticResource TextButton}" 
+                        HorizontalAlignment="Center"
+                        Margin="7"
+                        Content="Uploader"
+                        Click="Uploader_OnClick"/>
+
+                <Grid Margin="5" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Button Grid.Row="0"
+                            Style="{StaticResource UserTextButton}" 
+                            Click="Pseudo_OnClick"
+                            FontSize="18"
+                            Content="{Binding ConnectedUserPseudo, FallbackValue=Pseudo}"/>
+
+                        <Button Grid.Row="1"
+                                Style="{StaticResource UserTextButton}" 
+                                Content="Changer le mot de passe"
+                                Click="Password_OnClick"
+                                FontSize="14"/>
+
+                    <CheckBox Grid.Row="2" 
+                              Content="Mode famille" 
+                              Padding="5" 
+                              VerticalAlignment="Center" 
+                              FontSize="14"
+                              IsChecked="{Binding ConnectedUserFamille}"/>
+                </Grid>
+            </Grid>
+
+            <Border DockPanel.Dock="Right" 
+                    Margin="7"
+                    HorizontalAlignment="Left"
+                    BorderBrush="{StaticResource PrimaryHueDarkBrush}" 
+                    BorderThickness="1" 
+                    CornerRadius="4">
+
+                <StackPanel Name="Plateforme" Background="{StaticResource PrimaryHueDarkBrush}">
+                    <TextBlock Style="{StaticResource Section}" Text="Comptes abonnés :"/>
+                    <ItemsControl ItemsSource="{Binding}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <CheckBox Style="{StaticResource Compte}" 
+                                          Content="{Binding}"
+                                          Click="ButtonBase_OnClick">
+                                    <CheckBox.IsChecked>
+                                        <MultiBinding Converter="{StaticResource ListePlateformesConverter}" Mode="OneTime">
+                                            <Binding/>
+                                            <Binding Path="DataContext.ConnectedUserPlateformes" RelativeSource="{RelativeSource AncestorType=DockPanel}"/>
+                                        </MultiBinding>
+                                    </CheckBox.IsChecked>
+                                </CheckBox>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>    
+                    </ItemsControl>
+                </StackPanel>
+            </Border>
+        </DockPanel>
+
+        <Button DockPanel.Dock="Top" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center"
+                Margin="0,0,0,15"
+                Content="Sauvegarder"
+                Click="Save_OnClick"/>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock x:Name="AvisL" Grid.Row="0" Text="{Binding Converter={StaticResource AvisLaissesNumConverter}}" Style="{StaticResource Section}"/>
+
+                <ListBox x:Name="Avis" Grid.Row="1" 
+                         Style="{StaticResource AvisUser}"
+                         Margin="30,0,0,0"
+                         HorizontalAlignment="Left" 
+                         ScrollViewer.CanContentScroll="True" 
+                         ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                         ItemsSource="{Binding}"
+                         SelectionChanged="Avis_OnSelectionChanged"/>
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Text="Ma liste :" Style="{StaticResource Section}"/>
+
+                <ListBox Grid.Row="1" 
+                         Style="{StaticResource MiniOeuvre}"
+                         Margin="30,0,0,0"
+                         HorizontalAlignment="Left" 
+                         ScrollViewer.CanContentScroll="True" 
+                         ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                         ItemsSource="{Binding ListeEnvie}"
+                         SelectionChanged="List_OnSelectionChanged"/>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</UserControl>

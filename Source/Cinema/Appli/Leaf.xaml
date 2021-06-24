@@ -1,0 +1,223 @@
+﻿<UserControl x:Class="Appli.Leaf"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Appli"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Border x:Name="Border">
+                                <ContentPresenter HorizontalAlignment="Center"/>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="Gray"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Foreground" Value="DarkGray"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <DockPanel HorizontalAlignment="Center" MaxWidth="1500">
+        <local:ActionButton DockPanel.Dock="Top" Margin="0,10,70,0"/>
+
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
+                <Viewbox Grid.Column="0" VerticalAlignment="Top">
+                    <Image Stretch="UniformToFill"
+                           Source="{Binding LienImage, Converter={StaticResource PhotoConverter}, 
+                                                                 ConverterParameter=Oeuvre, Mode=OneTime}"/>
+                </Viewbox>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Style="{StaticResource Titre}">
+                        <Run Style="{StaticResource Description}" Text="Titre :"/>
+                        <Run Style="{StaticResource Content}" Text="{Binding Titre, Mode=OneTime}"/>
+                    </TextBlock>
+
+                    <TextBlock Style="{StaticResource Titre}">
+                        <Run Style="{StaticResource Description}" Text="Date de sortie :"/>
+                        <Run Style="{StaticResource Content}" Text="{Binding DateDeSortie, StringFormat=\{0:dd/MM/yyyy\}, Mode=OneTime}"/>
+                    </TextBlock>
+
+                    <StackPanel Name="Realisateur" Orientation="{Binding Converter={StaticResource PersonnesConverter}, 
+                                                                                 ConverterParameter=Liste, FallbackValue=Vertical}">
+                        <TextBlock Style="{StaticResource Titre}">
+                            <Run Style="{StaticResource Description}" Text="Réalisateur(s) :"/>
+                        </TextBlock>
+                        <ScrollViewer VerticalScrollBarVisibility="Hidden"
+                                      MaxHeight="{Binding ActualHeight, 
+                                                  RelativeSource={RelativeSource AncestorType=Grid},
+                                                  Converter={StaticResource SingleSizeConverter}, 
+                                                  ConverterParameter=0\,3}">
+
+                            <ItemsControl Margin="4,4,0,0"
+                                          ItemsSource="{Binding Mode=OneTime}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Button Style="{StaticResource TextButton}" FontSize="20" Click="Acteur_OnClick">
+                                            <Button.Content>
+                                                <Run Style="{StaticResource Content}" FontSize="20" 
+                                                     Text="{Binding Converter={StaticResource PersonnesConverter}, ConverterParameter=Réalisateur, Mode=OneTime}">
+                                                </Run>
+                                            </Button.Content>
+                                        </Button>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </ScrollViewer>
+                    </StackPanel>
+
+                    <StackPanel Name="Acteur" Orientation="{Binding Converter={StaticResource PersonnesConverter}, 
+                                                                                 ConverterParameter=Liste, FallbackValue=Vertical}">
+                        <TextBlock Style="{StaticResource Titre}">
+                            <Run Style="{StaticResource Description}" Text="Acteur(s) :"/>
+                        </TextBlock>
+                        <ScrollViewer VerticalScrollBarVisibility="Hidden"
+                            MaxHeight="{Binding ActualHeight, 
+                                                  RelativeSource={RelativeSource AncestorType=Grid},
+                                                  Converter={StaticResource SingleSizeConverter}, 
+                                                  ConverterParameter=0\,36}">
+
+                            <ItemsControl Margin="4,4,0,0"
+                                          ItemsSource="{Binding Mode=OneTime}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Button Style="{StaticResource TextButton}" FontSize="20" Click="Acteur_OnClick">
+                                            <Button.Content>
+                                                <Run Style="{StaticResource Content}" FontSize="20" 
+                                                     Text="{Binding Converter={StaticResource PersonnesConverter}, ConverterParameter=Acteur, Mode=OneTime}">
+                                                </Run>
+                                            </Button.Content>
+                                        </Button>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </ScrollViewer>
+                    </StackPanel>
+
+                    <TextBlock Style="{StaticResource Titre}">
+                        <Run Style="{StaticResource Description}" Text="Note :"/>
+                        <Run Style="{StaticResource Content}" FontStyle="Normal" Text="{Binding NoteMoyenne, 
+                            Converter={StaticResource NoteAvisConverter}, Mode=OneWay}"/>
+                    </TextBlock>
+                </StackPanel>
+            </Grid>
+
+            <Border Grid.Column="1" 
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Top"
+                    Margin="7"
+                    Background="{StaticResource PrimaryHueDarkBrush}"
+                    BorderThickness="0"
+                    CornerRadius="6" 
+                    MinWidth="160"
+                    MaxWidth="250"
+                    MinHeight="250">
+
+                <StackPanel>
+                    <TextBlock Style="{StaticResource Titre}" 
+                               Text="Regarder sur :" HorizontalAlignment="Center"/>
+
+                    <ItemsControl Name="StreamsR" ItemsSource="{Binding}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Click="Stream_OnClick">
+                                    <TextBlock HorizontalAlignment="Center"  Text="{Binding Plateforme}" Style="{StaticResource Text}"/>
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+
+                    <TextBlock Name="Disponible" Style="{StaticResource Titre}" 
+                               Text="Aussi disponible sur :" HorizontalAlignment="Center" Visibility="Hidden"/>
+
+                    <ItemsControl Name="StreamsD" ItemsSource="{Binding}" Visibility="Hidden">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button>
+                                    <TextBlock HorizontalAlignment="Center"  Text="{Binding Plateforme}" Style="{StaticResource Text}"/>
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <TextBlock DockPanel.Dock="Top" Style="{StaticResource Section}" Text="Synopsis :"/>
+
+        <ScrollViewer DockPanel.Dock="Top" 
+                      VerticalScrollBarVisibility="Hidden"
+                      MaxHeight="{Binding ActualHeight, 
+                                  RelativeSource={RelativeSource AncestorType=UserControl}, 
+                                  Converter={StaticResource SingleSizeConverter}, 
+                                  ConverterParameter=0\,3}">
+            <TextBlock Style="{StaticResource Text}">
+                <Run Text="{Binding Synopsis, Mode=OneTime}"/>
+            </TextBlock>
+        </ScrollViewer>
+
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock Style="{StaticResource Section}"  Text="Avis :"/>
+
+            <Button Name="NAvis"
+                Style="{StaticResource AvisButton}"
+                    Click="NewAvis_OnClick"/>
+        </StackPanel>
+
+        <ListBox Name="Avis"
+                 DockPanel.Dock="Top"
+                 Style="{StaticResource ListBox}"
+                 Margin="30,0,0,0"
+                 HorizontalAlignment="Left"
+                 ScrollViewer.CanContentScroll="True" 
+                 ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                 ItemsSource="{Binding DataContext.ListeAvis, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                 SelectionChanged="Avis_OnSelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <DockPanel>
+                        <local:Avis DockPanel.Dock="Top"
+                                    ButtonOnClick="Delete_OnClick"
+                                    Visibility="{Binding DataContext.IsAdmin, 
+                                                 RelativeSource={RelativeSource AncestorType=ListBox},
+                                                 Converter={StaticResource VisibilityConverter},
+                                                 FallbackValue=Hidden}"
+
+                                    Pseudo="{Binding Key.Pseudo}"
+                                    Note="{Binding Value.Note}"
+                                    Image="{Binding Key.ImageProfil}"
+                                    Text="{Binding Value.Commentaire}"/>
+                    </DockPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </DockPanel>
+</UserControl>

@@ -1,0 +1,2510 @@
+{
+  "Data": [
+    {
+      "Users": [
+        {
+          "User": {
+            "Pseudo": "Antoine",
+            "IsModeFamille": false,
+            "IsAdmin": true,
+            "Password": "Admin",
+            "Image": "Images\\UsersPhotos\\Antoine.png",
+            "Envies": [],
+            "RécemmentConsultées": [
+              {
+                "Univers": {
+                  "Titre": "Alien",
+                  "Date": "1979-09-12T00:00:00"
+                }
+              },
+              {
+                "Série": {
+                  "Titre": "Lupin",
+                  "Date": "2021-01-08T00:00:00"
+                }
+              },
+              {
+                "Trilogie": {
+                  "Titre": "Star Wars : Trilogie",
+                  "Date": "1983-09-19T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Star Wars Episode IV : Un nouvel espoir",
+                  "Date": "1977-10-19T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Alien, le retour",
+                  "Date": "1986-10-08T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Alien, le huitième passager",
+                  "Date": "1979-09-12T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Alien, resurrection",
+                  "Date": "1997-11-06T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Pulp Fiction",
+                  "Date": "1994-05-12T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Scarface",
+                  "Date": "1984-03-07T00:00:00"
+                }
+              },
+              {
+                "Personne": {
+                  "Prénom": "Ethan",
+                  "Nom": "Hawk",
+                  "Date": "06/11/1970 00:00:00"
+                }
+              }
+            ],
+            "Plateformes": [
+              {
+                "Plateforme": "Netflix"
+              },
+              {
+                "Plateforme": "PrimeVideo"
+              }
+            ]
+          }
+        },
+        {
+          "User": {
+            "Pseudo": "Samuel",
+            "IsModeFamille": false,
+            "IsAdmin": true,
+            "Password": "Admin",
+            "Image": "Images\\UsersPhotos\\Samuel.jpg",
+            "Envies": [],
+            "RécemmentConsultées": [
+              {
+                "Série": {
+                  "Titre": "Lupin",
+                  "Date": "2021-01-08T00:00:00"
+                }
+              },
+              {
+                "Épisode": {
+                  "Titre": "Lupin : Chapitre 5",
+                  "Date": "2021-01-08T00:00:00"
+                }
+              },
+              {
+                "Épisode": {
+                  "Titre": "Lupin : Chapitre 4",
+                  "Date": "2021-01-08T00:00:00"
+                }
+              },
+              {
+                "Épisode": {
+                  "Titre": "Lupin : Chapitre 3",
+                  "Date": "2021-01-08T00:00:00"
+                }
+              },
+              {
+                "Épisode": {
+                  "Titre": "Lupin : Chapitre 2",
+                  "Date": "2021-01-08T00:00:00"
+                }
+              },
+              {
+                "Épisode": {
+                  "Titre": "Lupin : Chapitre 1",
+                  "Date": "2021-01-08T00:00:00"
+                }
+              },
+              {
+                "Univers": {
+                  "Titre": "Alien",
+                  "Date": "1979-09-12T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Star Wars Episode IV : Un nouvel espoir",
+                  "Date": "1977-10-19T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Alien, le huitième passager",
+                  "Date": "1979-09-12T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Alien, le retour",
+                  "Date": "1986-10-08T00:00:00"
+                }
+              }
+            ],
+            "Plateformes": [
+              {
+                "Plateforme": "Netflix"
+              },
+              {
+                "Plateforme": "PrimeVideo"
+              },
+              {
+                "Plateforme": "OCS"
+              }
+            ]
+          }
+        },
+        {
+          "User": {
+            "Pseudo": "Kikou63",
+            "IsModeFamille": true,
+            "IsAdmin": false,
+            "Password": "123",
+            "Image": null,
+            "Envies": [],
+            "RécemmentConsultées": [
+              {
+                "Série": {
+                  "Titre": "Lupin",
+                  "Date": "2021-01-08T00:00:00"
+                }
+              },
+              {
+                "Épisode": {
+                  "Titre": "Lupin : Chapitre 1",
+                  "Date": "2021-01-08T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Le Truman Show",
+                  "Date": "1998-10-28T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Pulp Fiction",
+                  "Date": "1994-05-12T00:00:00"
+                }
+              }
+            ],
+            "Plateformes": [
+              {
+                "Plateforme": "Netflix"
+              }
+            ]
+          }
+        },
+        {
+          "User": {
+            "Pseudo": "Kuro",
+            "IsModeFamille": false,
+            "IsAdmin": false,
+            "Password": "123Kuro+xx",
+            "Image": "Images\\UsersPhotos\\Kuro.png",
+            "Envies": [],
+            "RécemmentConsultées": [
+              {
+                "Univers": {
+                  "Titre": "Star Wars",
+                  "Date": "1977-10-19T00:00:00"
+                }
+              },
+              {
+                "Trilogie": {
+                  "Titre": "Star Wars : Trilogie",
+                  "Date": "1983-09-19T00:00:00"
+                }
+              },
+              {
+                "Trilogie": {
+                  "Titre": "Star Wars : Prélogie",
+                  "Date": "2005-05-19T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Star Wars Episode IV : Un nouvel espoir",
+                  "Date": "1977-10-19T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Star Wars Episode V : L'Empire Contre-Attaque",
+                  "Date": "1980-08-20T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Star Wars Episode VI : Le Retour du Jedi",
+                  "Date": "1983-10-19T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Star Wars Episode I : La Menace Fantôme",
+                  "Date": "1999-10-13T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Star Wars Episode II : L'Attaque des Clones",
+                  "Date": "2002-05-17T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Star Wars Episode III : La Revanche des Sith",
+                  "Date": "2005-11-01T00:00:00"
+                }
+              }
+            ],
+            "Plateformes": [
+              {
+                "Plateforme": "Netflix"
+              },
+              {
+                "Plateforme": "Disney"
+              },
+              {
+                "Plateforme": "PrimeVideo"
+              }
+            ]
+          }
+        },
+        {
+          "User": {
+            "Pseudo": "Sacritik",
+            "IsModeFamille": false,
+            "IsAdmin": false,
+            "Password": "Je+suis+le+staff11",
+            "Image": "Images\\UsersPhotos\\Sacritik.png",
+            "Envies": [],
+            "RécemmentConsultées": [
+              {
+                "Film": {
+                  "Titre": "Alien, resurrection",
+                  "Date": "1997-11-06T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Le Cercle Des Poètes Disparus",
+                  "Date": "1990-01-17T00:00:00"
+                }
+              }
+            ],
+            "": []
+          }
+        },
+        {
+          "User": {
+            "Pseudo": "Nävis",
+            "IsModeFamille": false,
+            "IsAdmin": false,
+            "Password": "Apeeeero666+",
+            "Image": "Images\\UsersPhotos\\Nävis.png",
+            "Envies": [],
+            "RécemmentConsultées": [
+              {
+                "Univers": {
+                  "Titre": "Alien",
+                  "Date": "1979-09-12T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Alien 3",
+                  "Date": "1992-05-22T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Le Truman Show",
+                  "Date": "1998-10-28T00:00:00"
+                }
+              },
+              {
+                "Film": {
+                  "Titre": "Prometheus",
+                  "Date": "2012-04-11T00:00:00"
+                }
+              }
+            ],
+            "Plateformes": [
+              {
+                "Plateforme": "Netflix"
+              },
+              {
+                "Plateforme": "PrimeVideo"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Personnes": [
+        {
+          "Personne": {
+            "Prénom": "Ridley",
+            "Nom": "Scott",
+            "Nationalité": "Britannique, Américaine",
+            "Date": "30/11/1937 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Ridley_Scott.jpg",
+            "Biographie": "Sir Ridley Scott, né le 30 novembre 1937 à South Shields, dans le Tyne and Wear, en Angleterre, est un réalisateur et producteur britannico-américain, résidant aux États-Unis.\nIl est révélé à la fin des années 1970 et durant les années 1980 par trois blockbusters : Alien, le huitième passager (1979), Blade Runner (1982) et Legend (1985). "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Sigourney",
+            "Nom": "Weaver",
+            "Nationalité": "Américaine",
+            "Date": "08/10/1949 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Sigourney_Weaver.jpg",
+            "Biographie": "Susan Alexandra Weaver, dite Sigourney Weaver, née le 8 octobre 1949 à New York, est une actrice américaine.\nElle accède à la célébrité internationale en tenant le rôle d'Ellen Ripley dans la saga Alien, initiée en 1979 par le long métrage Alien, de Ridley Scott."
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Tom",
+            "Nom": "Skerritt",
+            "Nationalité": "Américaine",
+            "Date": "25/08/1933 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Tom_Skerritt.jpg",
+            "Biographie": "Tom Skerritt est un acteur et réalisateur américain, né le 25 août 1933 à Détroit. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "James",
+            "Nom": "Cameron",
+            "Nationalité": "Canadienne",
+            "Date": "16/08/1954 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\James_Cameron.jpg",
+            "Biographie": "James Francis Cameron, né le 16 août 1954 à Kapuskasing (Canada) est un réalisateur, scénariste, producteur et explorateur de fonds marins canadien qui habite aux États-Unis.\nIl a réalisé et écrit les films, Terminator (1984), Aliens, le retour (1986), Abyss (1989), Terminator 2 : Le Jugement dernier (1991), True Lies (1994), Titanic (1997) et Avatar (2009). "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Michael",
+            "Nom": "Bienh",
+            "Nationalité": "Américaine",
+            "Date": "31/07/1956 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Michael_Bienh.jpg",
+            "Biographie": "Michael Connell Biehn, dit Michael Biehn, est un acteur américain, né le 31 juillet 1956 à Anniston en Alabama.\nIl est surtout connu pour avoir joué Kyle Reese dans Terminator, le Caporal Hicks dans Aliens, le retour et le lieutenant de vaisseau Hiram Coffey dans Abyss. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "David",
+            "Nom": "Fincher",
+            "Nationalité": "Américaine",
+            "Date": "28/08/1962 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\David_Fincher.jpg",
+            "Biographie": "David Fincher, né le 28 août 1962 à Denver (Colorado), est un réalisateur et producteur américain.\nIl est principalement connu pour avoir réalisé les films Seven, Fight Club, L'Étrange Histoire de Benjamin Button, The Social Network et Gone Girl qui lui ont valu diverses récompenses et nominations aux Oscars du cinéma ou aux Golden Globes."
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Charles",
+            "Nom": "Dutton",
+            "Nationalité": "Américaine",
+            "Date": "30/01/1951 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Charles_Dutton.jpg",
+            "Biographie": "Charles S. Dutton est un acteur et réalisateur américain, né le 30 janvier 1951 à Baltimore (États-Unis). "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Jean-Pierre",
+            "Nom": "Jeunet",
+            "Nationalité": "Française",
+            "Date": "03/09/1953 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Jean-Pierre_Jeunet.jpg",
+            "Biographie": "Jean-Pierre Jeunet, né le 3 septembre 1953 au Coteau (Loire), est un réalisateur et scénariste français. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Winona",
+            "Nom": "Ryder",
+            "Nationalité": "Américaine",
+            "Date": "29/10/1971 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Winona_Ryder.jpg",
+            "Biographie": "Winona Horowitz, dite Winona Ryder [wɪˈnoʊnə ˈɹaɪdɚ]a, est une actrice et productrice américaine, née le 29 octobre 1971 à Winona dans le Minnesota. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Noomi",
+            "Nom": "Rapace",
+            "Nationalité": "Suédoise",
+            "Date": "28/12/1979 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Noomi_Rapace.jpg",
+            "Biographie": "Noomi Rapace, créditée sous son nom de naissance Noomi Norén, au début de sa carrière, née le 28 décembre 1979 à Hudiksvall, en Suède, est une actrice et productrice suédoise.\nElle commence sa carrière à la télévision suédoise puis perce au cinéma. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Michael",
+            "Nom": "Fassbender",
+            "Nationalité": "Allemande, Irlandaise",
+            "Date": "02/04/1977 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Michael_Fassbender.jpg",
+            "Biographie": "Michael Fassbender est un acteur et producteur germano-irlandais, né le 2 avril 1977 à Heidelberg dans le Bade-Wurtemberg. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Charlize",
+            "Nom": "Theron",
+            "Nationalité": "Sud-Africaine",
+            "Date": "07/08/1975 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Charlize_Theron.jpg",
+            "Biographie": "Charlize Theron, née le 7 août 1975 à Benoni (Afrique du Sud), est une actrice, productrice et mannequin sud-africaine, naturalisée américaine. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Idris",
+            "Nom": "Elba",
+            "Nationalité": "Britannique",
+            "Date": "06/09/1972 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Idris_Elba.jpg",
+            "Biographie": "Idrissa Akuna Elba, dit Idris Elba, est un acteur, scénariste et producteur de cinéma et DJ britannique, né le 6 septembre 1972 à Londres. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Katherine",
+            "Nom": "Waterston",
+            "Nationalité": "Américaine, Britannique",
+            "Date": "03/03/1980 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Katherine_Waterston.jpg",
+            "Biographie": "Katherine Waterston, née le 3 mars 19801 à Westminster au Royaume-Uni, est une actrice américano-britannique. Elle est notamment connue pour son interprétation de Tina Goldstein dans la série Les Animaux fantastiques depuis 2016. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Omar",
+            "Nom": "Sy",
+            "Nationalité": "Française",
+            "Date": "20/01/1978 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Omar_Sy.jpg",
+            "Biographie": "Omar Sy est un acteur, producteur, réalisateur, scénariste et humoriste français, né le 20 janvier 1978 à Trappes, dans les Yvelines.\nIl accède à la notoriété en formant, avec Fred Testot, le duo comique Omar et Fred. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Ludivine",
+            "Nom": "Sagnier",
+            "Nationalité": "Française",
+            "Date": "03/07/1979 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Ludivine_Sagnier.jpg",
+            "Biographie": "Ludivine Sagnier, née le 3 juillet 1979 à Saint-Cloud, est une actrice française.\nElle est révélée au début des années 2000 par le réalisateur François Ozon, qui la dirige dans les drames Gouttes d'eau sur pierres brûlantes, Huit Femmes, puis surtout le thriller Swimming Pool. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "George",
+            "Nom": "Kay",
+            "Nationalité": "Britannique",
+            "Date": "21/03/1983 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\George_Kay.png",
+            "Biographie": "Réalisateur britannique."
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "George",
+            "Nom": "Lucas",
+            "Nationalité": "Américaine",
+            "Date": "14/05/1944 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\George_Lucas.jpg",
+            "Biographie": "George Lucas est un réalisateur, scénariste et producteur américain né le 14 mai 1944 à Modesto en Californie.\n\nIssu de l'école de cinéma de l'université de Californie du Sud à Los Angeles, il cofonde avec son ami Francis Ford Coppola le studio American Zoetrope puis crée sa propre société de production : Lucasfilm. Il commence sa carrière de réalisateur avec les films THX 1138 en 1971 et American Graffiti en 1973. Il connaît ensuite la consécration avec les deux premières trilogies cinématographiques Star Wars. Énorme succès au box-office, la saga galactique fait de lui un des cinéastes les plus reconnus et fortunés du cinéma américain mais aussi complique sa vie, notamment à cause de ses relations parfois difficiles avec les fans. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Liam",
+            "Nom": "Neeson",
+            "Nationalité": "Irlandaise, Britanique, Américaine",
+            "Date": "07/06/1952 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Liam_Neeson.jpg",
+            "Biographie": "Liam Neeson, de son vrai nom William John Neeson  est un acteur irlando-britannico-américain né le 7 juin 1952 à Ballymena, dans le Comté d'Antrim, en Irlande du Nord.\n\nIl est connu pour ses rôles d'hommes courageux et \"révolutionnaires\" dans des films comme La Liste de Schindler, Michael Collins et Rob Roy, ainsi que pour sa participation à des grosses productions telles que la franchise Star Wars (depuis 1999) dans laquelle il interprète le rôle de Qui-Gon Jinn et la trilogie The Dark Knight (2005-2012) dans laquelle il interprète Ra's al Ghul.\n\nSuite au film Taken (2008), il tourne de plus en plus dans des films d'action, apparaissant notamment en 2010 dans l'adaptation de la série L'Agence tous risques (1983-1987), dans Sans identité (2011), ou encore Non-Stop (2014). "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Ewan",
+            "Nom": "McGregor",
+            "Nationalité": "Britanique",
+            "Date": "31/03/1971 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Ewan_McGregor.jpg",
+            "Biographie": "Ewan McGregor, né le 31 mars 1971 à Perth (Écosse, Royaume-Uni) est un acteur, réalisateur et chanteur écossais.\n\nIl est révélé durant les années 1990 par son compatriote le réalisateur Danny Boyle, qui le dirige dans Petits meurtres entre amis (1994), Trainspotting (1996) et Une vie moins ordinaire (1997). Mais c'est son interprétation d'Obi-Wan Kenobi dans la prélogie Star Wars qui lui permet d'accéder à une célébrité mondiale durant les années 2000. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Natalie",
+            "Nom": "Portman",
+            "Nationalité": "Israélienne, Américaine",
+            "Date": "09/06/1981 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Natalie_Portman.jpg",
+            "Biographie": "Neta-Lee Hershlag, dite Natalie Portman, née le 9 juin 1981 à Jérusalem, est une actrice, productrice et réalisatrice israélo-américaine.\n\nElle fait ses débuts au cinéma en 1993, à douze ans, en interprétant le rôle de Mathilda dans le film Léon de Luc Besson, aux côtés de Jean Reno. Elle devient une vedette internationale à part entière en 1999, lors de la sortie de Star Wars, épisode I : La Menace fantôme dans lequel elle joue Padmé Amidala aux côtés de Liam Neeson et Ewan McGregor. Elle reprend ce rôle dans les épisodes II et III, sortis respectivement en 2002 et 2005. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Hayden ",
+            "Nom": "Christensen",
+            "Nationalité": "Canadienne",
+            "Date": "19/04/1981 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Hayden__Christensen.jpg",
+            "Biographie": "Hayden Christensen est un acteur et producteur canadien né le 19 avril 1981 à Vancouver (Canada). Il a commencé sa carrière à la télévision canadienne à l'âge de douze ans, puis a continué à la télévision américaine à la fin des années 1990.\n\nEn 2001, il est nommé au Golden Globe du meilleur acteur dans un second rôle pour sa performance dans le mélodrame La Maison sur l'océan.\n\nEn 2002 et 2005, il bénéficie d'une audience mondiale en prêtant ses traits à Anakin Skywalker dans Star Wars, épisode II : L'Attaque des clones et Star Wars, épisode III : La Revanche des Sith. Il tente de poursuivre sa carrière avec le blockbuster Jumper (2008), qui est un échec. Il se fait ensuite plus discret dans les années 2010. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Hayden",
+            "Nom": "Christensen",
+            "Nationalité": "Canadienne",
+            "Date": "19/04/1981 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Hayden_Christensen.jpg",
+            "Biographie": "Hayden Christensen est un acteur et producteur canadien né le 19 avril 1981 à Vancouver (Canada). Il a commencé sa carrière à la télévision canadienne à l'âge de douze ans, puis a continué à la télévision américaine à la fin des années 1990.\n\nEn 2001, il est nommé au Golden Globe du meilleur acteur dans un second rôle pour sa performance dans le mélodrame La Maison sur l'océan.\n\nEn 2002 et 2005, il bénéficie d'une audience mondiale en prêtant ses traits à Anakin Skywalker dans Star Wars, épisode II : L'Attaque des clones et Star Wars, épisode III : La Revanche des Sith. Il tente de poursuivre sa carrière avec le blockbuster Jumper (2008), qui est un échec. Il se fait ensuite plus discret dans les années 2010. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Mark",
+            "Nom": "Hamill",
+            "Nationalité": "Américaine",
+            "Date": "25/09/1951 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Mark_Hamill.jpg",
+            "Biographie": "Mark Richard Hamill est un acteur américain, né le 25 septembre 1951 à Oakland (Californie).\n\nIl accède à la célébrité mondiale en incarnant Luke Skywalker, personnage principal de la première trilogie de la saga Star Wars (1977-1983), qu'il porte aux côtés de Carrie Fisher et Harrison Ford. Son interprétation du paysan naïf traversant les épreuves pour devenir un puissant chevalier Jedi, désireux d'abattre le côté obscur de la Force incarné par son père Dark Vador, en fait un acteur culte, marquant des générations de spectateurs.\n\nIl se consacre essentiellement, dans les décennies suivantes, à l'activité plus discrète de création de voix. Il prête notamment sa voix au Joker dans la plupart de ses apparitions dans les adaptations de Batman en dessin animé et jeu vidéo depuis la série animée de 1992, ainsi qu'au Seigneur du feu Ozai dans la série d'animation Avatar, le dernier maître de l'air (2005). "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Carrie",
+            "Nom": "Fisher",
+            "Nationalité": "Américaine",
+            "Date": "21/10/1956 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Carrie_Fisher.jpg",
+            "Biographie": "Carrie Fisher, née le 21 octobre 1956 à Beverly Hills et morte le 27 décembre 2016 à Los Angeles en Californie, est une actrice, romancière et scénariste américaine.\n\nElle est la fille de l'actrice Debbie Reynolds et du chanteur Eddie Fisher, la sœur de Todd Fisher, la demi-sœur de Joely Fisher et de Tricia Leigh Fisher et la mère de Billie Lourd.\n\nEn 1977, dès son deuxième film, elle accède à la célébrité avec ses partenaires de Star Wars de George Lucas. Son interprétation de la princesse Leia, personnalité importante de l'Alliance rebelle en lutte contre l'Empire galactique, la propulse au rang de star internationale, le grand public l'associant systématiquement à ce personnage. Elle reprend ce rôle dans L'Empire contre-attaque (1980) puis Le Retour du Jedi (1983). Des problèmes de drogue et d'alcoolisme durant les années 1980 l'obligent à se tenir écartée des plateaux. Elle est tout de même remarquée dans Les Blues Brothers (1980), Hannah et ses sœurs (1986), Quand Harry rencontre Sally (1989), Austin Powers (1997), ou encore dans Scream 3 (2000)."
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Alec",
+            "Nom": "Guinness",
+            "Nationalité": "Britanique",
+            "Date": "02/04/1912 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Alec_Guinness.jpg",
+            "Biographie": "Sir Alec Guinness, né le 2 avril 1914 à Paddington à Londres et mort le 5 août 2000 à Midhurst, dans le Sussex, est un acteur britannique.\n\nSon interprétation du colonel Nicholson dans Le Pont de la rivière Kwaï (1957) est récompensée par un Oscar et un Golden Globe. Il apparaît également dans les films Lawrence d'Arabie (1962) et Le Docteur Jivago (1965), entre autres.\n\nIl est aussi connu des générations de spectateurs plus jeunes pour son rôle d'Obi-Wan Kenobi âgé dans la saga Star Wars. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Harrison",
+            "Nom": "Ford",
+            "Nationalité": "Américaine",
+            "Date": "13/07/1942 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Harrison_Ford.jpg",
+            "Biographie": "Harrison Ford est un acteur américain, né le 13 juillet 1942 à Chicago.\n\nSa collaboration avec George Lucas, le premier qui lui a donné l'occasion de s'affirmer en tant qu'acteur avec American Graffiti (1973), lui permet d'accéder au rang de vedette internationale avec les rôles de Han Solo dans la trilogie originelle de Star Wars (1977-1983) puis d’Indiana Jones (1981-2022).\n\nParallèlement, il collabore avec de grands cinéastes : Francis Ford Coppola le dirige dans Conversation secrète (1974) et Apocalypse Now (1979). Puis Ridley Scott lui confie le rôle de Rick Deckard dans l'ambitieux et expérimental film de science-fiction Blade Runner (1982).\n\nÀ partir des années 1980, il s'impose dans un registre plus réaliste en étant la tête d'affiche de Witness (1985) et Mosquito Coast (1986) de Peter Weir, Frantic (1988) de Roman Polanski, Working Girl (1988) et À propos d'Henry (1991) de Mike Nichols puis Présumé innocent (1990) d'Alan J. Pakula. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Brian",
+            "Nom": "DePalma",
+            "Nationalité": "Américain",
+            "Date": "11/09/1940 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Brian_DePalma.jpg",
+            "Biographie": "Brian De Palma est un réalisateur, producteur de cinéma et scénariste américain, né le 11 septembre 1940 à Newark (New Jersey). "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Al",
+            "Nom": "Pacino",
+            "Nationalité": "Américain",
+            "Date": "25/04/1940 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Al_Pacino.jpg",
+            "Biographie": "Alfredo James Pacino, dit Al Pacino est un acteur, réalisateur, scénariste et producteur de cinéma américain d'origine italienne, né le 25 avril 1940 à New York, dans l'arrondissement de Manhattan.\nAu cours d'une carrière s'étalant sur plus de cinq décennies, il a reçu de nombreux prix et nominations dont notamment un Academy Award, deux Tony Awards et deux Primetime Emmy Awards. Il est l'un des rares artistes dans le monde à avoir reçu la Triple Crown of Acting, terme récompensant un artiste ayant remporté à la fois un Oscar, un Emmy Award et un Tony Award dans une carrière. Il a également été honoré du Cecil B. DeMille Award en 2001, du American Film Institute Life Achievement Award en 2007 et de la National Medal of Arts en 2011. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Steven",
+            "Nom": "Bauer",
+            "Nationalité": "Cubaine, Américaine",
+            "Date": "02/12/1956 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Steven_Bauer.jpg",
+            "Biographie": "Esteban Ernesto Echevarría Samson, dit Steven Bauer, est un acteur et producteur de cinéma américano-cubain, né le 2 décembre 1956 à La Havane (Cuba). "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Michelle",
+            "Nom": "Pfeiffer",
+            "Nationalité": "Américaine",
+            "Date": "29/04/1958 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Michelle_Pfeiffer.jpg",
+            "Biographie": "Michelle Pfeiffer, née le 29 avril 1958 à Santa Ana, en Californie, est une actrice américaine.\nElle a fait ses débuts au cinéma en 1980 et s'est révélée avec ses rôles dans Grease 2 (1982) et Scarface (1983). "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Quentin",
+            "Nom": "Tarantino",
+            "Nationalité": "Américaine",
+            "Date": "27/03/1963 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Quentin_Tarantino.jpg",
+            "Biographie": "Quentin Tarantino, né le 27 mars 1963 à Knoxville dans le Tennessee, est un réalisateur, scénariste, producteur et acteur américain.\nIl acquiert une célébrité internationale dans les années 1990, en tant que réalisateur de films indépendants avec ses deux premiers longs métrages, Reservoir Dogs (1992) et Pulp Fiction (1994), et remporte pour ce dernier la Palme d'or à Cannes. Après un troisième film en 1997 (Jackie Brown), il effectue son retour avec les deux volets Kill Bill : Vol. 1 / Vol.2 (2003 et 2004). Ses plus importantes réussites commerciales internationales sont Django Unchained (2012) et Once Upon a Time… in Hollywood (2019), des films où il manie l'uchronie, comme pour un autre de ses grands succès, Inglorious Basterds (2009). "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "John",
+            "Nom": "Travolta",
+            "Nationalité": "Américaine",
+            "Date": "18/02/1954 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\John_Travolta.jpg",
+            "Biographie": "John Travolta, né le 18 février 1954 à Englewood (New Jersey), est un acteur, chanteur, danseur et producteur de cinéma américain.\nIl devient célèbre grâce aux films musicaux La Fièvre du samedi soir et Grease. Il retrouve la notoriété dans les années 1990 avec Allô maman, ici bébé ! (Look Who's Talking) et surtout Pulp Fiction (qui lui vaut une nomination à l'Oscar du meilleur acteur en 1995), puis enchaîne les succès tels que Get Shorty et Volte-face. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Samuel",
+            "Nom": "L.Jackson",
+            "Nationalité": "Américaine",
+            "Date": "21/12/1948 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Samuel_L.Jackson.jpg",
+            "Biographie": "Samuel Leroy Jackson, dit Samuel L. Jackson est un acteur et producteur de cinéma américain, né le 21 décembre 1948 à Washington, D.C.\nIl accède à la célébrité internationale durant les années 1990 avec des prestations remarquées, comme dans Jurassic Park (1993) de Steven Spielberg, Pulp Fiction (1994) de Quentin Tarantino (dont il deviendra l'acteur fétiche), ou encore Une journée en enfer (1995) de John McTiernan, et Au revoir à jamais (1996), de Renny Harlin. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Bruce",
+            "Nom": "Willis",
+            "Nationalité": "Américaine",
+            "Date": "19/03/1955 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Bruce_Willis.jpg",
+            "Biographie": "Walter Bruce Willison, dit Bruce Willis, est un acteur et producteur de cinéma américain né le 19 mars 1955 à Idar-Oberstein en Allemagne de l'Ouest3.\nSa carrière débute sur scène Off-Broadway, puis à la télévision dans les années 1980 avec le rôle de David Addison dans la série Clair de lune (1985-1989). Alternant à la télévision et au cinéma dans des rôles comiques, dramatiques et d'action, Bruce Willis atteint la notoriété grâce à son rôle de John McClane avec le film d'action Die Hard en 1988, qui a rencontré un succès commercial important et s'impose comme une référence du genre. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Peter",
+            "Nom": "Weir",
+            "Nationalité": "Australien",
+            "Date": "21/08/1944 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Peter_Weir.jpg",
+            "Biographie": "Peter Weir est un réalisateur, scénariste et producteur australien, né à Sydney le 21 août 1944. Il est notamment connu pour avoir réalisé les films Pique-nique à Hanging Rock, Le Cercle des poètes disparus et The Truman Show. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Robin",
+            "Nom": "Williams",
+            "Nationalité": "Américain",
+            "Date": "21/07/1951 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Robin_Williams.jpg",
+            "Biographie": "Robin Williams, né le 21 juillet 1951 à Chicago (Illinois) et mort le 11 août 2014 à Paradise Cay (Californie), est un acteur et humoriste américain.\nDébutant au cinéma dans le rôle-titre du film Popeye (1980) de Robert Altman, il se fait connaître avec la série télévisée Mork and Mindy (1978-1982). Il s'illustre ensuite aussi bien dans le domaine comique que dramatique, avec des films marquant la fin des années 1980 et les années 1990 comme Good Morning, Vietnam (1987), Le Cercle des poètes disparus (1989), L'Éveil (1990), Madame Doubtfire (1993) ou Jumanji (1995). Avant sa disparition, il joue dans la série télévisée The Crazy Ones (2013–2014) "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Ethan",
+            "Nom": "Hawk",
+            "Nationalité": "Américain",
+            "Date": "06/11/1970 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Ethan_Hawk.jpg",
+            "Biographie": "Ethan Hawke, né le 6 novembre 1970 à Austin (Texas), est un acteur, écrivain, réalisateur et scénariste américain. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Ethan",
+            "Nom": "Hawke",
+            "Nationalité": "Américain",
+            "Date": "06/11/1970 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Ethan_Hawk.jpg",
+            "Biographie": "Ethan Hawke, né le 6 novembre 1970 à Austin (Texas), est un acteur, écrivain, réalisateur et scénariste américain. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Jim",
+            "Nom": "Carrey",
+            "Nationalité": "Canadienne, Américaine",
+            "Date": "17/01/1962 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Jim_Carrey.jpg",
+            "Biographie": "James Carrey, dit Jim Carrey, né le 17 janvier 1962 à Newmarket en Ontario au Canada, est un acteur, humoriste, scénariste et producteur de cinéma canado-américain.\nIl s'est fait connaître au cinéma en 1994 grâce aux films à succès Ace Ventura, détective chiens et chats, The Mask et Dumb and Dumber. Ses comédies sont basées sur un humour gestuel et de nombreuses grimaces, ce qui deviendra sa marque de fabrique. "
+          }
+        },
+        {
+          "Personne": {
+            "Prénom": "Laura",
+            "Nom": "Linney",
+            "Nationalité": "Américaine",
+            "Date": "05/02/1964 00:00:00",
+            "Image": "Images\\PersonnesPhotos\\Laura_Linney.jpg",
+            "Biographie": "Laura Leggett Linney est une actrice américaine née le 5 février 1964 à New York. Comédienne ayant fait ses débuts au théâtre, elle alterne productions classiques et contemporaines, obtenant régulièrement des distinctions pour ses performances, notamment trois nominations au Tony Awards. Elle fait ses débuts au cinéma avec Lorenzo en 1992, dans un rôle secondaire, mais devra attendre Congo en 1995 et Peur primale en 1996 pour obtenir des premiers rôles qui lancent sa carrière, mais c'est sa prestation d'« épouse » de Jim Carrey dans The Truman Show en 1998, qui lui permet d'acquérir une large notoriété. "
+          }
+        }
+      ]
+    },
+    {
+      "Oeuvres": [
+        {
+          "Leafs": [
+            {
+              "Films": [
+                {
+                  "Film": {
+                    "Titre": "Alien, le huitième passager",
+                    "Date": "12/09/1979 00:00:00",
+                    "Thème": "Horreur",
+                    "IsFamille": false,
+                    "Image": "Images\\OeuvresPhotos\\Alien,_le_huitième_passager.jpg",
+                    "Synopsis": "Durant le voyage-retour du cargo spatial Nostromo après une mission commerciale de routine, l'équipage, cinq hommes et deux femmes plongés en hibernation depuis dix mois sont tirés de leur léthargie plus tôt que prévu par l'ordinateur de bord du vaisseau. Ce dernier a en effet capté des signaux radio inconnus dans l'espace et, du fait d'une clause attenante à leur contrat de navigation, l'équipage du vaisseau est tenu de vérifier tout indice de vie extraterrestre.\nUn jeu macabre du chat et de la souris débute alors entre l'équipage et la créature, l'« Alien ». ",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "Ridley",
+                          "Nom": "Scott",
+                          "Date": "30/11/1937 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Sigourney",
+                          "Nom": "Weaver",
+                          "Date": "08/10/1949 00:00:00",
+                          "Rôle": "Ripley"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Tom",
+                          "Nom": "Skerritt",
+                          "Date": "25/08/1933 00:00:00",
+                          "Rôle": "Dallas"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "PrimeVideo",
+                          "Lien": "https://www.primevideo.com/detail/0NQ1QB64SFRB3A2E4NUT7EEPZK/ref=atv_sr_fle_c_Tn74RA__1_1_1?pageTypeId=B084VV85C4&qid=1622975090&pageTypeIdSource=ASIN&sr=1-1&language=fr_FR"
+                        }
+                      },
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/alien-le-huitieme-passager/3gmwPpcKMkwS"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Samuel",
+                          "Note": 4.5,
+                          "Commentaire": "Le meilleur alien de la saga"
+                        }
+                      },
+                      {
+                        "Avis": {
+                          "User": "Antoine",
+                          "Note": 5.0,
+                          "Commentaire": "Un des meilleurs Alien, un très bon film"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Alien, le retour",
+                    "Date": "08/10/1986 00:00:00",
+                    "Thème": "Horreur",
+                    "IsFamille": false,
+                    "Image": "Images\\OeuvresPhotos\\Alien,_le_retour.jpg",
+                    "Synopsis": "Le lieutenant Ellen Ripley, unique survivante du cargo spatial Nostromo après la destruction de celui-ci, dérive dans l'espace à bord d'une navette de sauvetage, endormie en biostase (sommeil artificiel). Sa navette est retrouvée en 2179, soit cinquante-sept ans après les événements racontés dans le premier film. La navette ayant été rapatriée sur la station spatiale Gateway, en orbite autour de la Terre, Ripley est admise à l'unité médicale de la station, où elle se remet difficilement de sa biostase. Elle souffre de violents cauchemars, où elle voit un Alien sortir de son corps. ",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "James",
+                          "Nom": "Cameron",
+                          "Date": "16/08/1954 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Sigourney",
+                          "Nom": "Weaver",
+                          "Date": "08/10/1949 00:00:00",
+                          "Rôle": "Ripley"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Michael",
+                          "Nom": "Bienh",
+                          "Date": "31/07/1956 00:00:00",
+                          "Rôle": "Caporal Hicks"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "PrimeVideo",
+                          "Lien": "https://www.primevideo.com/detail/0IE8KTJW0N2GCQS4KZUX3VLS9F/ref=atv_sr_fle_c_Tn74RA__2_1_2?pageTypeId=B087WNXTM7&qid=1622975090&pageTypeIdSource=ASIN&sr=1-2&language=fr_FR"
+                        }
+                      },
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/aliens-le-retour/224lP4LHXbRb"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Samuel",
+                          "Note": 4.0,
+                          "Commentaire": "J'ai vraiment bien aimé ce second Alien, pas aussi bien que le premier mais vraiment cool"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Alien 3",
+                    "Date": "22/05/1992 00:00:00",
+                    "Thème": "Horreur",
+                    "IsFamille": false,
+                    "Image": "Images\\OeuvresPhotos\\Alien_3.jpg",
+                    "Synopsis": "2179. Ellen Ripley et ses compagnons rescapés (la jeune Newt, le caporal Hicks et l'androïde Bishop) dorment en biostase à bord du vaisseau spatial USS Sulaco, qui retourne vers la Terre après les évènements sur LV-426. Mais un facehugger présent à bord brise l'une des capsule de stase où ils dorment, et son sang acide provoque un incendie. L’ordinateur de bord du Sulaco éjecte alors les cryotubes des quatre passagers dans une unité de sauvetage EEV. La capsule s'écrase peu après sur Fiorina « Fury » 161, une planète-prison où se trouve une colonie minière pénitentiaire.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "David",
+                          "Nom": "Fincher",
+                          "Date": "28/08/1962 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Sigourney",
+                          "Nom": "Weaver",
+                          "Date": "08/10/1949 00:00:00",
+                          "Rôle": "Ripley"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Charles",
+                          "Nom": "Dutton",
+                          "Date": "30/01/1951 00:00:00",
+                          "Rôle": "Dillon"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "PrimeVideo",
+                          "Lien": "https://www.primevideo.com/detail/0QX4MXYGG2DLL6II63CHBLGL6H/ref=atv_sr_fle_c_Tn74RA__5_1_5?sr=1-5&pageTypeId=B07ZZZ8CW7&qid=1622975090&pageTypeIdSource=ASIN&language=fr_FR"
+                        }
+                      },
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/alien-3/6vdNV13cJue5"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Nävis",
+                          "Note": 2.0,
+                          "Commentaire": "Un des pires Alien mais il y a le 4 pour faire pire que lui"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Alien, resurrection",
+                    "Date": "06/11/1997 00:00:00",
+                    "Thème": "Horreur",
+                    "IsFamille": false,
+                    "Image": "Images\\OeuvresPhotos\\Alien,_resurrection.jpg",
+                    "Synopsis": "En 2379, 200 ans après le suicide d'Ellen RipleyNote 1 (Sigourney Weaver) sur Fiorina-16, des scientifiques militaires parviennent à recréer un clone de Ripley (porteur de l'alien qu'elle avait en elle) à partir d'échantillons de sang collectés avant sa mort.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "Jean-Pierre",
+                          "Nom": "Jeunet",
+                          "Date": "03/09/1953 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Sigourney",
+                          "Nom": "Weaver",
+                          "Date": "08/10/1949 00:00:00",
+                          "Rôle": "Ripley"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Winona",
+                          "Nom": "Ryder",
+                          "Date": "29/10/1971 00:00:00",
+                          "Rôle": "Annalee Call"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "PrimeVideo",
+                          "Lien": "https://www.primevideo.com/detail/0NQ21FE1SCHPLD4QVCP1PCRTL5/ref=atv_sr_fle_c_Tn74RA__4_1_4?pageTypeId=B089F1SSZL&sr=1-4&qid=1622975090&pageTypeIdSource=ASIN&language=fr_FR"
+                        }
+                      },
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/alien-4-la-resurrection/1DXesYstHoxu"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Sacritik",
+                          "Note": 3.0,
+                          "Commentaire": "Bof c'est pas si mal non ?"
+                        }
+                      },
+                      {
+                        "Avis": {
+                          "User": "Samuel",
+                          "Note": 1.0,
+                          "Commentaire": "Un bon film pourrie...."
+                        }
+                      },
+                      {
+                        "Avis": {
+                          "User": "Antoine",
+                          "Note": 1.0,
+                          "Commentaire": "J'ai pas vue le film mais sam a dit que c'était nul donc 1."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Prometheus",
+                    "Date": "11/04/2012 00:00:00",
+                    "Thème": "Horreur",
+                    "IsFamille": false,
+                    "Image": "Images\\OeuvresPhotos\\Prometheus.jpg",
+                    "Synopsis": "Dans un passé lointain, un vaisseau extraterrestre arrive sur Terre. Un être humanoïde y est déposé et s'y sacrifie en absorbant un liquide noir sous l'effet duquel son corps se désagrège, répandant son ADN dans un cours d'eau. ",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "Ridley",
+                          "Nom": "Scott",
+                          "Date": "30/11/1937 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Noomi",
+                          "Nom": "Rapace",
+                          "Date": "28/12/1979 00:00:00",
+                          "Rôle": "Elizabeth Shaw"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Michael",
+                          "Nom": "Fassbender",
+                          "Date": "02/04/1977 00:00:00",
+                          "Rôle": "David"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Charlize",
+                          "Nom": "Theron",
+                          "Date": "07/08/1975 00:00:00",
+                          "Rôle": "Vickers"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Idris",
+                          "Nom": "Elba",
+                          "Date": "06/09/1972 00:00:00",
+                          "Rôle": "Capitaine Janek"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "PrimeVideo",
+                          "Lien": "https://www.primevideo.com/detail/0QG3BZSD6X6KUUIP4VC03V96SO/ref=atv_sr_fle_c_Tn74RA__8_1_8?sr=1-8&qid=1622975090&pageTypeId=B087CBYDCK&pageTypeIdSource=ASIN&language=fr_FR"
+                        }
+                      },
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/prometheus/4lnNfuayI4z7"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Nävis",
+                          "Note": 4.0,
+                          "Commentaire": "Un film sympa sur les origines d'alien"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Alien, Covenant",
+                    "Date": "04/05/2017 00:00:00",
+                    "Thème": "Horreur",
+                    "IsFamille": false,
+                    "Image": "Images\\OeuvresPhotos\\Alien,_Covenant.jpg",
+                    "Synopsis": "Durant la préparation de la mission Prometheus, Peter Weyland ordonne à un androïde de prendre part à la mission. Weyland se présente comme le « créateur » de l'être synthétique et lui explique que cette mission a pour but de connaitre les créateurs des humains. Weyland demande ensuite à l’androïde de s’attribuer lui-même un prénom.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "Ridley",
+                          "Nom": "Scott",
+                          "Date": "30/11/1937 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Michael",
+                          "Nom": "Fassbender",
+                          "Date": "02/04/1977 00:00:00",
+                          "Rôle": "David 8"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Katherine",
+                          "Nom": "Waterston",
+                          "Date": "03/03/1980 00:00:00",
+                          "Rôle": "Daniels Oram"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "PrimeVideo",
+                          "Lien": "https://www.primevideo.com/detail/0IMRCAQSUNMIFDHXE9SGMAFFGI/ref=atv_sr_fle_c_Tn74RA__3_1_3?sr=1-3&qid=1622975090&pageTypeIdSource=ASIN&pageTypeId=B085WBMLDQ&language=fr_FR"
+                        }
+                      },
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/alien-covenant/42uYz25lgzx5"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Samuel",
+                          "Note": 3.0,
+                          "Commentaire": "J'aime bien le nouveau design mais l'histoire devient un gros bordel et perd du sens donc bof.\n"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Star Wars Episode I : La Menace Fantôme",
+                    "Date": "13/10/1999 00:00:00",
+                    "Thème": "Sf",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Star_Wars_Episode_I___La_Menace_Fantôme.jpg",
+                    "Synopsis": "Échoués sur Tatooine après avoir sauvé la reine Amidala de l’invasion de Naboo, les Jedi Obi-Wan Kenobi et Qui-Gon Jinn découvrent Anakin, un jeune esclave réceptif à la Force. Dans une course de module, celui-ci gagne sa liberté. De retour sur Naboo, Anakin et la reine font face à l’invasion tandis que les Jedi affrontent le dangereux Dark Maul. Le complot des Sith est en marche.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Lucas",
+                          "Date": "14/05/1944 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Liam",
+                          "Nom": "Neeson",
+                          "Date": "07/06/1952 00:00:00",
+                          "Rôle": "Qui-Gon Jinn"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Ewan",
+                          "Nom": "McGregor",
+                          "Date": "31/03/1971 00:00:00",
+                          "Rôle": "Obi-Wan Kenobi"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Natalie",
+                          "Nom": "Portman",
+                          "Date": "09/06/1981 00:00:00",
+                          "Rôle": "Padmé Amidala"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/star-wars-la-menace-fantome-episode-i/2ezYynkgW1AH"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Kuro",
+                          "Note": 4.0,
+                          "Commentaire": "Un bon Star Wars mais pas aussi bon que les IV V VI"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Star Wars Episode II : L'Attaque des Clones",
+                    "Date": "17/05/2002 00:00:00",
+                    "Thème": "Sf",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Star_Wars_Episode_II___L'Attaque_des_Clones.jpg",
+                    "Synopsis": "Dix ans après l’invasion de Naboo, la guerre menace la galaxie. Sous l’influence du Comte Dooku, un Jedi renégat, des milliers de systèmes solaires menacent de quitter la République. Quand une tentative d’assassinat s’abat sur la sénatrice Padmé Amidala, le padawan Anakin Skywalker est chargé de la protéger. Il va découvrir son amour pour Padmé et son côté obscur. La Guerre des Clones est proche. Contient des scènes de consommation de tabac.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Lucas",
+                          "Date": "14/05/1944 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Ewan",
+                          "Nom": "McGregor",
+                          "Date": "31/03/1971 00:00:00",
+                          "Rôle": "Obi-Wan Kenobi"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Natalie",
+                          "Nom": "Portman",
+                          "Date": "09/06/1981 00:00:00",
+                          "Rôle": "Padmé Amidala"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Hayden",
+                          "Nom": "Christensen",
+                          "Date": "19/04/1981 00:00:00",
+                          "Rôle": "Anakin Skywalker"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/star-wars-lattaque-des-clones-episode-ii/mgpYHGnzZW6N"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Kuro",
+                          "Note": 3.0,
+                          "Commentaire": "Mouai un peux long ce film quand même"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Star Wars Episode III : La Revanche des Sith",
+                    "Date": "01/11/2005 00:00:00",
+                    "Thème": "Sf",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Star_Wars_Episode_III___La_Revanche_des_Sith.jpg",
+                    "Synopsis": "Des années après le début de la Guerre des Clones, les chevaliers Jedi mènent l’armée de clones contre les Séparatistes dans toute la galaxie. Les Sith conspirent pour dominer la galaxie et la République s’effondre pour donner naissance à l’Empire. Anakin Skywalker succombe au Côté obscur et devient Dark Vador. Les Jedi sont décimés, Obi-Wan Kenobi et Yoda sont forcés de se cacher. Certaines séquences ou certains motifs lumineux clignotants sont susceptibles d'affecter les téléspectateurs photosensibles.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Lucas",
+                          "Date": "14/05/1944 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Ewan",
+                          "Nom": "McGregor",
+                          "Date": "31/03/1971 00:00:00",
+                          "Rôle": "Obi-Wan Kenobi"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Natalie",
+                          "Nom": "Portman",
+                          "Date": "09/06/1981 00:00:00",
+                          "Rôle": "Padmé Amidala"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Hayden",
+                          "Nom": "Christensen",
+                          "Date": "19/04/1981 00:00:00",
+                          "Rôle": "Anakin Skywalker"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/star-wars-la-revanche-des-sith-episode-iii/4WvbqLFumNvi"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Kuro",
+                          "Note": 4.0,
+                          "Commentaire": "On remerciera le charisme de Christensen mais bon... un super combat de fin avec une puta**n de chorégraphie !\n"
+                        }
+                      },
+                      {
+                        "Avis": {
+                          "User": "Samuel",
+                          "Note": 4.0,
+                          "Commentaire": "Un bon Star Wars mais pas le meilleur non plus"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Star Wars Episode IV : Un nouvel espoir",
+                    "Date": "19/10/1977 00:00:00",
+                    "Thème": "Sf",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Star_Wars_Episode_IV___Un_nouvel_espoir.jpg",
+                    "Synopsis": "Un jeune fermier, Luke Skywalker, intercepte l'appel à l'aide de la princesse Leia faite prisonnière. Luke se retrouve alors plongé dans la lutte de l'Alliance Rebelle et rencontre Obi-Wan Kenobi, un ancien Jedi qui a vécu en ermite pendant des années sur Tatooine. Obi-Wan va lui enseigner la Force et le garçon va se plonger dans une grande aventure à travers la galaxie. Contient des scènes de consommation de tabac.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Lucas",
+                          "Date": "14/05/1944 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Mark",
+                          "Nom": "Hamill",
+                          "Date": "25/09/1951 00:00:00",
+                          "Rôle": "Luc Skywalker"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Carrie",
+                          "Nom": "Fisher",
+                          "Date": "21/10/1956 00:00:00",
+                          "Rôle": "Leia Organa"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Alec",
+                          "Nom": "Guinness",
+                          "Date": "02/04/1912 00:00:00",
+                          "Rôle": "Obi-Wan Kenobi"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/star-wars-un-nouvel-espoir-episode-iv/12fVeZxD2fWJ"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Kuro",
+                          "Note": 4.5,
+                          "Commentaire": "Les bon film comme star wars IV ça manque quand même "
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Star Wars Episode V : L'Empire Contre-Attaque",
+                    "Date": "20/08/1980 00:00:00",
+                    "Thème": "Sf",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Star_Wars_Episode_V___L'Empire_Contre-Attaque.jpg",
+                    "Synopsis": "Découvrez la lutte entre le bien et le mal. Après la destruction de l’Étoile de la mort, les Impériaux continuent de poursuivre les Rebelles. Après la défaite de la Rébellion sur Hoth, Luke se rend sur Dagobah pour s’entraîner avec Maître Yoda qui a vécu caché depuis la chute de la République. Dark Vador tend un piège à Luke Skywalker sur Bespin pour le convertir au Côté obscur.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Lucas",
+                          "Date": "14/05/1944 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Mark",
+                          "Nom": "Hamill",
+                          "Date": "25/09/1951 00:00:00",
+                          "Rôle": "Luke Skywalker"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Carrie",
+                          "Nom": "Fisher",
+                          "Date": "21/10/1956 00:00:00",
+                          "Rôle": "Leia Organa"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Harrison",
+                          "Nom": "Ford",
+                          "Date": "13/07/1942 00:00:00",
+                          "Rôle": "Han Solo"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/star-wars-lempire-contre-attaque-episode-v/iqtDTZAewwYl"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Kuro",
+                          "Note": 5.0,
+                          "Commentaire": "Un super film !!"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Star Wars Episode VI : Le Retour du Jedi",
+                    "Date": "19/10/1983 00:00:00",
+                    "Thème": "Sf",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Star_Wars_Episode_VI___Le_Retour_du_Jedi.jpg",
+                    "Synopsis": "Faites l’expérience du triomphe de la Force dans Star Wars épisode VI : Le Retour du Jedi. Dans l’épique conclusion de la saga, l’Empire s’apprête à écraser la Rébellion avec une Étoile de la mort encore plus puissante, tandis que les Rebelles préparent une attaque massive sur la station spatiale. Luke Skywalker confronte Dark Vador dans un dernier duel sous les yeux de l’Empereur. Contient des scènes de consommation de tabac.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Lucas",
+                          "Date": "14/05/1944 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Mark",
+                          "Nom": "Hamill",
+                          "Date": "25/09/1951 00:00:00",
+                          "Rôle": "Luke Skywalker"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Carrie",
+                          "Nom": "Fisher",
+                          "Date": "21/10/1956 00:00:00",
+                          "Rôle": "Leia Organa"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Harrison",
+                          "Nom": "Ford",
+                          "Date": "13/07/1942 00:00:00",
+                          "Rôle": "Han Solo"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/star-wars-le-retour-du-jedi-episode-vi/6QGKo5mjDBS8"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Kuro",
+                          "Note": 5.0,
+                          "Commentaire": "Le meilleur des Star Wars pour moi !!!"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Scarface",
+                    "Date": "07/03/1984 00:00:00",
+                    "Thème": "Action",
+                    "IsFamille": false,
+                    "Image": "Images\\OeuvresPhotos\\Scarface.jpg",
+                    "Synopsis": "En 1980, au cours de l'exode de Mariel, les États-Unis du président Jimmy Carter offrent l'asile politique aux exilés cubains qui s'opposent au communisme de Fidel Castro sur l'île, que Castro fait expulser après les avoir dépouillés ; mais le « Líder máximo » en profite aussi pour se débarrasser de ses prisonniers de droit commun qui garnissent ses prisons, dont on estime qu'ils étaient 25 000 parmi les 125 000 expulsés cubains partant vers les États-Unis. ",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "Brian",
+                          "Nom": "DePalma",
+                          "Date": "11/09/1940 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Al",
+                          "Nom": "Pacino",
+                          "Date": "25/04/1940 00:00:00",
+                          "Rôle": "Tony Montana"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Steven",
+                          "Nom": "Bauer",
+                          "Date": "02/12/1956 00:00:00",
+                          "Rôle": "Manny Ribera"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Michelle",
+                          "Nom": "Pfeiffer",
+                          "Date": "29/04/1958 00:00:00",
+                          "Rôle": "Elvira Hancock"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "PrimeVideo",
+                          "Lien": "https://www.primevideo.com/detail/Scarface/0G0VMWNDIC0C8OF21ZVB4LL83Z"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Antoine",
+                          "Note": 5.0,
+                          "Commentaire": "Un super film"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Pulp Fiction",
+                    "Date": "12/05/1994 00:00:00",
+                    "Thème": "Comédie",
+                    "IsFamille": false,
+                    "Image": "Images\\OeuvresPhotos\\Pulp_Fiction.jpg",
+                    "Synopsis": "Dans un café-restaurant de Los Angeles, dans la matinée, un couple de jeunes braqueurs, Pumpkin (appelé Ringo par Jules) et Yolanda (Tim Roth et Amanda Plummer), discutent des risques que comporte leur activité. Ils se décident finalement à attaquer le lieu, afin de pouvoir dévaliser à la fois l'établissement et les clients.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "Quentin",
+                          "Nom": "Tarantino",
+                          "Date": "27/03/1963 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "John",
+                          "Nom": "Travolta",
+                          "Date": "18/02/1954 00:00:00",
+                          "Rôle": "Vincent Vega"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Samuel",
+                          "Nom": "L.Jackson",
+                          "Date": "21/12/1948 00:00:00",
+                          "Rôle": "Jules Winnfield"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Bruce",
+                          "Nom": "Willis",
+                          "Date": "19/03/1955 00:00:00",
+                          "Rôle": "Butch Coolidge"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "PrimeVideo",
+                          "Lien": "https://www.primevideo.com/dp/amzn1.dv.gti.6eabfbe6-d1b6-c160-b583-7edbaa26d96b?autoplay=1&ref_=atv_cf_strg_wb"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Antoine",
+                          "Note": 4.0,
+                          "Commentaire": "Un bon vieux film culte comme on en voit plus\n"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Le Cercle Des Poètes Disparus",
+                    "Date": "17/01/1990 00:00:00",
+                    "Thème": "Drame",
+                    "IsFamille": false,
+                    "Image": "Images\\OeuvresPhotos\\Le_Cercle_Des_Poètes_Disparus.jpg",
+                    "Synopsis": "En 1959, aux États-Unis, Todd Anderson, un garçon timide, est envoyé dans la prestigieuse académie de Welton (lieu fictif1), dans l'État du Vermont, réputée pour être l'une des plus fermées et austères du pays et où son frère aîné a suivi de brillantes études. Il y fait la rencontre d'un professeur de lettres anglaises aux pratiques pédagogiques plutôt originales, M. Keating, qui encourage le refus du conformisme, l'épanouissement des personnalités par la vie en poésie, l'art de profiter de l'instant présent (\"Carpe Diem\") et le goût de la liberté.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "Peter",
+                          "Nom": "Weir",
+                          "Date": "21/08/1944 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Robin",
+                          "Nom": "Williams",
+                          "Date": "21/07/1951 00:00:00",
+                          "Rôle": "John Keating"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Ethan",
+                          "Nom": "Hawk",
+                          "Date": "06/11/1970 00:00:00",
+                          "Rôle": "Todd Anderson"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "Disney",
+                          "Lien": "https://www.disneyplus.com/fr-fr/movies/le-cercle-des-poetes-disparus/67wLIb9Q3c3s"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Sacritik",
+                          "Note": 3.5,
+                          "Commentaire": "Un film de drame c'est bien la catégorie non ?"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Film": {
+                    "Titre": "Le Truman Show",
+                    "Date": "28/10/1998 00:00:00",
+                    "Thème": "Comédie",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Le_Truman_Show.jpg",
+                    "Synopsis": "Truman Burbank est un agent d'assurances, marié à Meryl, qui est infirmière. Ils vivent paisiblement dans la cité paradisiaque de Seahaven remplie de gens sympathiques, de maisons identiques et de jardins bien entretenus.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "Peter",
+                          "Nom": "Weir",
+                          "Date": "21/08/1944 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Jim",
+                          "Nom": "Carrey",
+                          "Date": "17/01/1962 00:00:00",
+                          "Rôle": "Truman Burbank"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Laura",
+                          "Nom": "Linney",
+                          "Date": "05/02/1964 00:00:00",
+                          "Rôle": "Hannah Gill"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "PrimeVideo",
+                          "Lien": "https://www.primevideo.com/dp/amzn1.dv.gti.3eabfc03-587b-3e3e-7482-63469ae0e3dd?autoplay=1&ref_=atv_cf_strg_wb"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Kikou63",
+                          "Note": 1.0,
+                          "Commentaire": "j'ai pas vue le film mais j'aime pas le poster donc je met 1"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "Épisodes": [
+                {
+                  "Épisode": {
+                    "Titre": "Lupin : Chapitre 1",
+                    "Date": "08/01/2021 00:00:00",
+                    "Thème": "Suspense",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Lupin___Chapitre_1.jpg",
+                    "Synopsis": "Hanté par l'injustice qui a frappé sa famille, Assane veut régler ses comptes en volant un collier de diamants. Mais rien ne se passe comme prévu.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Kay",
+                          "Date": "21/03/1983 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Omar",
+                          "Nom": "Sy",
+                          "Date": "20/01/1978 00:00:00",
+                          "Rôle": "Assane Diop"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Ludivine",
+                          "Nom": "Sagnier",
+                          "Date": "03/07/1979 00:00:00",
+                          "Rôle": "Claire"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "Netflix",
+                          "Lien": "https://www.netflix.com/watch/81011359?trackId=14170289&tctx=5%2C0%2C2206854c-f686-41bf-8eb6-514bb0cd9e28-219669597%2Cab2e11a5-8377-46a5-a896-e0c149dc2f05_47846859X3XX1622985779464%2Cab2e11a5-8377-46a5-a896-e0c149dc2f05_ROOT%2C"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Kikou63",
+                          "Note": 1.0,
+                          "Commentaire": "nul"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Épisode": {
+                    "Titre": "Lupin : Chapitre 2",
+                    "Date": "08/01/2021 00:00:00",
+                    "Thème": "Suspense",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Lupin___Chapitre_2.jpg",
+                    "Synopsis": "Assane élabore un scénario pour entrer en contact avec un détenu qui peut le renseigner sur la mort de Babakar. Anne Pellegrini avoue un lourd secret.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Kay",
+                          "Date": "21/03/1983 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Omar",
+                          "Nom": "Sy",
+                          "Date": "20/01/1978 00:00:00",
+                          "Rôle": "Assane Diop"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Ludivine",
+                          "Nom": "Sagnier",
+                          "Date": "03/07/1979 00:00:00",
+                          "Rôle": "Claire"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "Netflix",
+                          "Lien": "https://www.netflix.com/watch/81011360?trackId=14170289&tctx=5%2C0%2C2206854c-f686-41bf-8eb6-514bb0cd9e28-219669597%2Cab2e11a5-8377-46a5-a896-e0c149dc2f05_47846859X3XX1622985779464%2C%2C"
+                        }
+                      }
+                    ],
+                    "Avis": []
+                  }
+                },
+                {
+                  "Épisode": {
+                    "Titre": "Lupin : Chapitre 3",
+                    "Date": "08/01/2021 00:00:00",
+                    "Thème": "Suspense",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Lupin___Chapitre.jpg",
+                    "Synopsis": "Assane interroge le commissaire Dumont et utilise un stratagème pour écarter la police. Le lien entre Hubert Pellegrini et le sort de Babakar est révélé au grand jour.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Kay",
+                          "Date": "21/03/1983 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Omar",
+                          "Nom": "Sy",
+                          "Date": "20/01/1978 00:00:00",
+                          "Rôle": "Assane Diop"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Ludivine",
+                          "Nom": "Sagnier",
+                          "Date": "03/07/1979 00:00:00",
+                          "Rôle": "Claire"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "Netflix",
+                          "Lien": "https://www.netflix.com/watch/81021127?trackId=14170289&tctx=5%2C0%2C2206854c-f686-41bf-8eb6-514bb0cd9e28-219669597%2Cab2e11a5-8377-46a5-a896-e0c149dc2f05_47846859X3XX1622985779464%2C%2C"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Samuel",
+                          "Note": 4.5,
+                          "Commentaire": "Mon épisode préféré de Lupin, hâte de voir la suite vendredi !! \n"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Épisode": {
+                    "Titre": "Lupin : Chapitre 4",
+                    "Date": "08/01/2021 00:00:00",
+                    "Thème": "Suspense",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Lupin___Chapitre_4.jpg",
+                    "Synopsis": "Assane sollicite l'aide d'une journaliste pour réunir des preuves contre Hubert. Guédira fait le rapprochement entre certains éléments du casse du Louvre.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Kay",
+                          "Date": "21/03/1983 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Omar",
+                          "Nom": "Sy",
+                          "Date": "20/01/1978 00:00:00",
+                          "Rôle": "Assane Diop"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "Netflix",
+                          "Lien": "https://www.netflix.com/watch/81021128?trackId=14170289&tctx=5%2C0%2C2206854c-f686-41bf-8eb6-514bb0cd9e28-219669597%2Cab2e11a5-8377-46a5-a896-e0c149dc2f05_47846859X3XX1622985779464%2C%2C"
+                        }
+                      }
+                    ],
+                    "Avis": []
+                  }
+                },
+                {
+                  "Épisode": {
+                    "Titre": "Lupin : Chapitre 5",
+                    "Date": "08/01/2021 00:00:00",
+                    "Thème": "Suspense",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Lupin___Chapitre_5.jpg",
+                    "Synopsis": "Dans le train pour Étretat, Assane, Claire et Raoul font une mauvaise rencontre. Acculé, Assane envoie un message au capitaine Laugier.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Kay",
+                          "Date": "21/03/1983 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Omar",
+                          "Nom": "Sy",
+                          "Date": "20/01/1978 00:00:00",
+                          "Rôle": "Assane Diop"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Ludivine",
+                          "Nom": "Sagnier",
+                          "Date": "03/07/1979 00:00:00",
+                          "Rôle": "Claire"
+                        }
+                      }
+                    ],
+                    "Streamings": [
+                      {
+                        "Stream": {
+                          "Plateforme": "Netflix",
+                          "Lien": "https://www.netflix.com/watch/81021129?trackId=14170289&tctx=5%2C0%2C2206854c-f686-41bf-8eb6-514bb0cd9e28-219669597%2Cab2e11a5-8377-46a5-a896-e0c149dc2f05_47846859X3XX1622985779464%2C%2C"
+                        }
+                      }
+                    ],
+                    "Avis": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Composites": [
+            {
+              "Trilogies": [
+                {
+                  "Trilogie": {
+                    "Titre": "Star Wars : Prélogie",
+                    "Date": "19/05/2005 00:00:00",
+                    "Thème": "Sf",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Star_Wars___Prélogie.jpg",
+                    "Synopsis": "La Prélogie, désigne les trois premiers épisodes de la saga Star Wars, sortis au cinéma entre 1999 et 2005.\n\nLa Prélogie servant de préquel à la Trilogie Originale, l'histoire commence 32 ans et se termine 19 ans avant celle-ci. ",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Lucas",
+                          "Date": "14/05/1944 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Ewan",
+                          "Nom": "McGregor",
+                          "Date": "31/03/1971 00:00:00",
+                          "Rôle": "Obi-Wan Kenobi"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Liam",
+                          "Nom": "Neeson",
+                          "Date": "07/06/1952 00:00:00",
+                          "Rôle": "Qui-Gon Jinn"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Hayden",
+                          "Nom": "Christensen",
+                          "Date": "19/04/1981 00:00:00",
+                          "Rôle": "Anakin Skywalker"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Natalie",
+                          "Nom": "Portman",
+                          "Date": "09/06/1981 00:00:00",
+                          "Rôle": "Padmé Amidala"
+                        }
+                      }
+                    ],
+                    "Films": [
+                      {
+                        "Film": {
+                          "Titre": "Star Wars Episode I : La Menace Fantôme",
+                          "Date": "13/10/1999 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Star Wars Episode II : L'Attaque des Clones",
+                          "Date": "17/05/2002 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Star Wars Episode III : La Revanche des Sith",
+                          "Date": "01/11/2005 00:00:00"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Kuro",
+                          "Note": 4.0,
+                          "Commentaire": "Une prélogie bien sympatique ma fois"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Trilogie": {
+                    "Titre": "Star Wars : Trilogie",
+                    "Date": "19/09/1983 00:00:00",
+                    "Thème": "Sf",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Star_Wars___Trilogie.jpg",
+                    "Synopsis": "La Trilogie Originale désigne les trois premiers films de la saga Star Wars, sortis au cinéma entre 1977 et 1983.\n\nChronologiquement, la Trilogie Originale commence 19 ans après la Prélogie",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Lucas",
+                          "Date": "14/05/1944 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Mark",
+                          "Nom": "Hamill",
+                          "Date": "25/09/1951 00:00:00",
+                          "Rôle": "Luke Skywalker"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Carrie",
+                          "Nom": "Fisher",
+                          "Date": "21/10/1956 00:00:00",
+                          "Rôle": "Leia Organa"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Harrison",
+                          "Nom": "Ford",
+                          "Date": "13/07/1942 00:00:00",
+                          "Rôle": "Han Solo"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Alec",
+                          "Nom": "Guinness",
+                          "Date": "02/04/1912 00:00:00",
+                          "Rôle": "Obi-Wan Kenobi"
+                        }
+                      }
+                    ],
+                    "Films": [
+                      {
+                        "Film": {
+                          "Titre": "Star Wars Episode IV : Un nouvel espoir",
+                          "Date": "19/10/1977 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Star Wars Episode V : L'Empire Contre-Attaque",
+                          "Date": "20/08/1980 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Star Wars Episode VI : Le Retour du Jedi",
+                          "Date": "19/10/1983 00:00:00"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Kuro",
+                          "Note": 5.0,
+                          "Commentaire": "La meilleur trilogie de Star Wars"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "Séries": [
+                {
+                  "Série": {
+                    "Titre": "Lupin",
+                    "Date": "08/01/2021 00:00:00",
+                    "Thème": "Suspense",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Lupin.jpg",
+                    "Synopsis": "En 1995, le jeune Assane Diop est bouleversé par la mort de son père, accusé d'un délit qu'il n'a pas commis. Vingt-cinq ans plus tard, Assane organise le vol d'un collier ayant appartenu à Marie-Antoinette d'Autriche.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Kay",
+                          "Date": "21/03/1983 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Omar",
+                          "Nom": "Sy",
+                          "Date": "20/01/1978 00:00:00",
+                          "Rôle": "Assane Diop"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Ludivine",
+                          "Nom": "Sagnier",
+                          "Date": "03/07/1979 00:00:00",
+                          "Rôle": "Claire"
+                        }
+                      }
+                    ],
+                    "Épisodes": [
+                      {
+                        "Épisode": {
+                          "Titre": "Lupin : Chapitre 1",
+                          "Date": "08/01/2021 00:00:00"
+                        }
+                      },
+                      {
+                        "Épisode": {
+                          "Titre": "Lupin : Chapitre 2",
+                          "Date": "08/01/2021 00:00:00"
+                        }
+                      },
+                      {
+                        "Épisode": {
+                          "Titre": "Lupin : Chapitre 3",
+                          "Date": "08/01/2021 00:00:00"
+                        }
+                      },
+                      {
+                        "Épisode": {
+                          "Titre": "Lupin : Chapitre 4",
+                          "Date": "08/01/2021 00:00:00"
+                        }
+                      },
+                      {
+                        "Épisode": {
+                          "Titre": "Lupin : Chapitre 5",
+                          "Date": "08/01/2021 00:00:00"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Antoine",
+                          "Note": 4.0,
+                          "Commentaire": "Une très bonne série qui reprend très bien l'histoire de Arsen Lupin\n"
+                        }
+                      },
+                      {
+                        "Avis": {
+                          "User": "Kikou63",
+                          "Note": 2.0,
+                          "Commentaire": "Une série française donc c'est forcément nul"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "Univers": [
+                {
+                  "Univers": {
+                    "Titre": "Alien",
+                    "Date": "12/09/1979 00:00:00",
+                    "Thème": "Horreur",
+                    "IsFamille": false,
+                    "Image": "Images\\OeuvresPhotos\\Alien.png",
+                    "Synopsis": "Personne ne vous entend crier dans l'espace.",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "Ridley",
+                          "Nom": "Scott",
+                          "Date": "30/11/1937 00:00:00"
+                        }
+                      },
+                      {
+                        "Réalisateur": {
+                          "Prénom": "David",
+                          "Nom": "Fincher",
+                          "Date": "28/08/1962 00:00:00"
+                        }
+                      },
+                      {
+                        "Réalisateur": {
+                          "Prénom": "James",
+                          "Nom": "Cameron",
+                          "Date": "16/08/1954 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Sigourney",
+                          "Nom": "Weaver",
+                          "Date": "08/10/1949 00:00:00",
+                          "Rôle": "Ripley"
+                        }
+                      }
+                    ],
+                    "Oeuvres": [
+                      {
+                        "Film": {
+                          "Titre": "Alien, le huitième passager",
+                          "Date": "12/09/1979 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Alien, le retour",
+                          "Date": "08/10/1986 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Alien 3",
+                          "Date": "22/05/1992 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Alien, resurrection",
+                          "Date": "06/11/1997 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Prometheus",
+                          "Date": "11/04/2012 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Alien, Covenant",
+                          "Date": "04/05/2017 00:00:00"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Nävis",
+                          "Note": 4.0,
+                          "Commentaire": "Ca c'est un bon univers ou on fipe bien au début car après on est bouré a la fin de l'apéro !"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Univers": {
+                    "Titre": "Star Wars",
+                    "Date": "19/10/1977 00:00:00",
+                    "Thème": "Sf",
+                    "IsFamille": true,
+                    "Image": "Images\\OeuvresPhotos\\Star_Wars.jpg",
+                    "Synopsis": "Star Wars est un univers de science fantasy créé par George Lucas. D'abord conçue comme une trilogie cinématographique sortie entre 1977 et 1983, la saga s'accroît ensuite, entre 1999 et 2005, de trois nouveaux films, qui racontent des événements antérieurs à la première trilogie. Dans un souci de cohérence, et pour atteindre un résultat qu'il n'avait pas pu obtenir dès le départ, le créateur de la saga retravaille également les films de sa première trilogie, ressortis en 1997 et 2004 dans de nouvelles versions. ",
+                    "Réalisateurs": [
+                      {
+                        "Réalisateur": {
+                          "Prénom": "George",
+                          "Nom": "Lucas",
+                          "Date": "14/05/1944 00:00:00"
+                        }
+                      }
+                    ],
+                    "Acteurs": [
+                      {
+                        "Acteur": {
+                          "Prénom": "Mark",
+                          "Nom": "Hamill",
+                          "Date": "25/09/1951 00:00:00",
+                          "Rôle": "Luke Skywalker"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Carrie",
+                          "Nom": "Fisher",
+                          "Date": "21/10/1956 00:00:00",
+                          "Rôle": "Leia Organa"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Harrison",
+                          "Nom": "Ford",
+                          "Date": "13/07/1942 00:00:00",
+                          "Rôle": "Han Solo"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Ewan",
+                          "Nom": "McGregor",
+                          "Date": "31/03/1971 00:00:00",
+                          "Rôle": "Obi-Wan Kenobi"
+                        }
+                      },
+                      {
+                        "Acteur": {
+                          "Prénom": "Hayden",
+                          "Nom": "Christensen",
+                          "Date": "19/04/1981 00:00:00",
+                          "Rôle": "Anakin SkyWalker"
+                        }
+                      }
+                    ],
+                    "Oeuvres": [
+                      {
+                        "Film": {
+                          "Titre": "Star Wars Episode I : La Menace Fantôme",
+                          "Date": "13/10/1999 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Star Wars Episode II : L'Attaque des Clones",
+                          "Date": "17/05/2002 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Star Wars Episode III : La Revanche des Sith",
+                          "Date": "01/11/2005 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Star Wars Episode IV : Un nouvel espoir",
+                          "Date": "19/10/1977 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Star Wars Episode V : L'Empire Contre-Attaque",
+                          "Date": "20/08/1980 00:00:00"
+                        }
+                      },
+                      {
+                        "Film": {
+                          "Titre": "Star Wars Episode VI : Le Retour du Jedi",
+                          "Date": "19/10/1983 00:00:00"
+                        }
+                      },
+                      {
+                        "Trilogie": {
+                          "Titre": "Star Wars : Prélogie",
+                          "Date": "19/05/2005 00:00:00"
+                        }
+                      },
+                      {
+                        "Trilogie": {
+                          "Titre": "Star Wars : Trilogie",
+                          "Date": "19/09/1983 00:00:00"
+                        }
+                      }
+                    ],
+                    "Avis": [
+                      {
+                        "Avis": {
+                          "User": "Kuro",
+                          "Note": 4.5,
+                          "Commentaire": "Un univers de science-fiction incroyable dans l'espace. Heuresement que ce n'est pas disney qui a repris la suite sinon que ferions nous ?\n"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

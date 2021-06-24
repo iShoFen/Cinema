@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="Appli.Acteur"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <DockPanel>
+        <Grid MaxWidth="1500" DockPanel.Dock="Top" 
+              Margin="20,20,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Viewbox Grid.Column="0">
+                <Image HorizontalAlignment="Left" Source="{Binding CurrentPersonne.LienImage, Converter={StaticResource PhotoConverter}, ConverterParameter=Personne}" Margin="5"/>
+            </Viewbox>
+
+            
+            <StackPanel Name="Setting" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top">
+                <Button Style="{StaticResource SettButton}"  Margin="10" Click="ButtonBase_OnClick"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                <TextBlock Style="{StaticResource Titre}">
+                    <Run Style="{StaticResource Description}" Text="Nom :"/>
+                    <Run Style="{StaticResource Content}" Text="{Binding CurrentPersonne.Nom, Mode=OneWay}"/>
+                </TextBlock>
+
+                <TextBlock Style="{StaticResource Titre}">
+                    <Run Style="{StaticResource Description}" Text="Prénom :"/>
+                    <Run Style="{StaticResource Content}" Text="{Binding CurrentPersonne.Prenom, Mode=OneWay}"/>
+                </TextBlock>
+
+                <TextBlock Style="{StaticResource Titre}">
+                    <Run Style="{StaticResource Description}" Text="Date de naissance :"/>
+                    <Run Style="{StaticResource Content}" Text="{Binding CurrentPersonne.DateDeNaissance, StringFormat=\{0:dd/MM/yyyy\}, Mode=OneWay}"/>
+                </TextBlock>
+
+                <TextBlock Style="{StaticResource Titre}">
+                    <Run Style="{StaticResource Description}" Text="Nationalité :"/>
+                    <Run Style="{StaticResource Content}" Text="{Binding CurrentPersonne.Nationalite, Mode=OneWay}"/>
+                </TextBlock>
+
+                <TextBlock Style="{StaticResource Text}">
+                    <Run Text="{Binding CurrentPersonne.Biographie, Mode=OneWay}"/>
+                </TextBlock>
+            </StackPanel>
+        </Grid>
+
+        <TextBlock DockPanel.Dock="Top"
+                   Style="{StaticResource Titre}"
+                   HorizontalAlignment="Center"
+                   Text="Oeuvres :"/>
+
+        <ListBox Name="Oeuvres"
+                 Style="{StaticResource MiniOeuvre}"
+                 HorizontalAlignment="Center"
+                 ScrollViewer.CanContentScroll="True" 
+                 ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                 ItemsSource="{Binding CurrentPersonne}"
+                 SelectionChanged="Oeuvres_OnSelectionChanged">
+        </ListBox>
+    </DockPanel>
+</UserControl>

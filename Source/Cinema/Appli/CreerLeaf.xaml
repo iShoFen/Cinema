@@ -1,0 +1,179 @@
+﻿<UserControl x:Class="Appli.CreerLeaf"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Loaded="DisplayInfo_OnLoaded">
+
+    <UserControl.Resources>
+        <Style x:Key="StreamBox" TargetType="TextBox" BasedOn="{StaticResource MahApps.Styles.TextBox}">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Background" Value="#500000"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Height" Value="25"/>
+        </Style>
+    </UserControl.Resources>
+
+    <DockPanel HorizontalAlignment="Center" MaxWidth="1500">
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Stretch">
+            <TextBlock Style="{StaticResource Titre}" 
+                       Margin="20,0,0,0"
+                       Visibility="{Binding Converter={StaticResource VisibilityConverter}, ConverterParameter=Oeuvre, Mode=OneTime}">
+                <Run Style="{StaticResource Description}" Text="Type :"/>
+            </TextBlock>
+            <ComboBox Name="Select" HorizontalAlignment="Left" 
+                      HorizontalContentAlignment="Center" Width="100" 
+                      BorderBrush="{StaticResource PrimaryHueDarkBrush}"
+                      Visibility="{Binding Converter={StaticResource VisibilityConverter}, ConverterParameter=Oeuvre, Mode=OneTime}"
+                      SelectionChanged="Sub_TypeSwitch" IsSynchronizedWithCurrentItem="True">
+                <TextBlock Text="Film"/>
+                <TextBlock Text="Épisode"/>
+                <TextBlock Text="Trilogie"/>
+                <TextBlock Text="Série"/>
+                <TextBlock Text="Univers"/>
+            </ComboBox>
+            <TextBlock Style="{StaticResource Titre}" Margin="10,0,0,0">
+                <Run Style="{StaticResource Description}" Text="Theme :"/>
+            </TextBlock>
+            <ComboBox Name="Theme" Width="100" SelectedIndex="0"
+                      BorderBrush="{StaticResource PrimaryHueDarkBrush}"
+                      ItemsSource="{Binding}"
+                      Text="{Binding DataContext.Theme, 
+                             RelativeSource={RelativeSource AncestorType=UserControl}, 
+                             Mode=OneTime}"/>
+        </StackPanel>
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                    <Rectangle Width="140" Height="200" Stroke="WhiteSmoke" StrokeThickness="1">
+                        <Rectangle.Fill>
+                            <ImageBrush x:Name="Image" Stretch="UniformToFill" ImageSource="{Binding LienImage, 
+                                Converter={StaticResource PhotoConverter}}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <Button Style="{StaticResource TextButton}" 
+                        HorizontalAlignment="Center"
+                        Margin="7"
+                        Content="Uploader"
+                        Click="Uploader_OnClick"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource Titre}">
+                            <Run Style="{StaticResource Description}" Text="Titre :"/>
+                        </TextBlock>
+                        <TextBox Name="Titre" 
+                                 Style="{StaticResource ContentBis}"
+                                 Text="{Binding Titre, Mode=OneTime}"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource Titre}">
+                            <Run Style="{StaticResource Description}" Text="Date de sortie :"/>
+                        </TextBlock>
+                        <TextBox Name="Dds" 
+                                 Style="{StaticResource ContentBis}"
+                                 Text="{Binding DateDeSortie, StringFormat=\{0:dd/MM/yyyy\}, Mode=OneTime}"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource Titre}">
+                            <Run Style="{StaticResource Description}" Text="Réalisateur(s) :"/>
+                        </TextBlock>
+                        <TextBox Name="Real" Style="{StaticResource ContentBis}"
+                                 AcceptsReturn="True"
+                                 Text="{Binding Converter={StaticResource PersNamesConverter}, 
+                                                             ConverterParameter=Réalisateur, Mode=OneTime}"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource Titre}">
+                            <Run Style="{StaticResource Description}" Text="Acteur(s) :"/>
+                        </TextBlock>
+                        <TextBox Name="Acteur" Style="{StaticResource ContentBis}" 
+                                 AcceptsReturn="True"
+                                 Text="{Binding Converter={StaticResource PersNamesConverter}, 
+                                                             ConverterParameter=Acteur, Mode=OneTime}"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox Name="Famille" HorizontalAlignment="Left" IsChecked="{Binding IsFamilleF, Mode=OneTime}">
+                            <CheckBox.Content>
+                                <TextBlock  Style="{StaticResource Titre}" Text="Mode famille"/>
+                            </CheckBox.Content>
+                        </CheckBox>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+
+            <Border Grid.Column="1" 
+                    Margin="7"
+                    Background="{StaticResource PrimaryHueDarkBrush}"
+                    BorderThickness="0"
+                    CornerRadius="6">
+
+                <StackPanel>
+                    <TextBlock Style="{StaticResource Titre}" 
+                               Text="Regarder sur :" HorizontalAlignment="Center"/>
+
+                    <ItemsControl Name="Streams" ItemsSource="{Binding}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <TextBlock HorizontalAlignment="Center"  Text="{Binding}" Style="{StaticResource Text}"/>
+                                    <TextBox Style="{StaticResource StreamBox}" MinWidth="160" LostFocus="Stream_Loaded_OnLostFocus" Loaded="Stream_Loaded_OnLostFocus">
+                                        <TextBox.Text>
+                                            <MultiBinding Converter="{StaticResource ListeStreamingConverter}" Mode="OneTime">
+                                                <Binding/>
+                                                <Binding Path="DataContext.ListeStream" 
+                                                         RelativeSource="{RelativeSource AncestorType=UserControl}"/>
+                                            </MultiBinding>
+                                        </TextBox.Text>
+                                    </TextBox>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <StackPanel Orientation="Vertical" DockPanel.Dock="Top">
+            <TextBlock DockPanel.Dock="Top" Style="{StaticResource Section}" Text="Synopsis :"/>
+            <ScrollViewer VerticalScrollBarVisibility="Hidden"
+                          MaxHeight="{Binding ActualHeight, 
+                                      RelativeSource={RelativeSource AncestorType=UserControl},
+                                      Converter={StaticResource SingleSizeConverter}, ConverterParameter=0\,35}">
+                <TextBox Name="Synopsis" 
+                         Style="{StaticResource CommentaryTextBox}" 
+                         Text="{Binding Synopsis, Mode=OneTime}"
+                         VerticalAlignment="Top" 
+                         MinWidth="800"/>
+            </ScrollViewer>
+        </StackPanel>
+
+        <Button Name="CreateModif"
+                DockPanel.Dock="Bottom" 
+                VerticalAlignment="Bottom" 
+                HorizontalAlignment="Right"
+                Margin="20"
+                Content="Créer"
+                Click="CreerLeaf_OnClick"/>
+    </DockPanel>
+</UserControl>

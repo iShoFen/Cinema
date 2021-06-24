@@ -1,0 +1,389 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+    <PackageId>C#inema</PackageId>
+    <Authors>Samuel Sirven/Antoine Duteyrat</Authors>
+    <Company />
+    <Product>C#inema</Product>
+    <Copyright>©2021 Omegasoft. Tous droits réservés. C#inema, Omegasoft et le logo Omegasoft sont des marques déposées ou déposées par Omegasoft en France et ou les autres pays.
+</Copyright>
+    <NeutralLanguage>fr</NeutralLanguage>
+    <Description>C#inema est une application vous permettant de retrouver tous vos films séries et univers préférés au même endroit pour obtenir toutes les informations d'on vous avez besoin ainsi qu'une redirection vers toutes les plateformes de streaming disponible pour celui si.</Description>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyName>Cinema</AssemblyName>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Version>1.0.0</Version>
+    <PackageIcon>CINEMAIcon.ico</PackageIcon>
+    <PackageIconUrl />
+    <ApplicationIcon>CINEMAIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\JSON\JSONData.json" />
+    <None Remove="Data\XML\XMLData.xml" />
+    <None Remove="Images\Logos\add.png" />
+    <None Remove="Images\Logos\check.png" />
+    <None Remove="Images\Logos\cross.png" />
+    <None Remove="Images\Logos\setting.png" />
+    <None Remove="Images\Logos\upgrade.png" />
+    <None Remove="Images\Logos\utilisateur.png" />
+    <None Remove="Images\OeuvresPhotos\Alien,_Covenant.jpg" />
+    <None Remove="Images\OeuvresPhotos\Alien,_le_huitième_passager.jpg" />
+    <None Remove="Images\OeuvresPhotos\Alien,_le_retour.jpg" />
+    <None Remove="Images\OeuvresPhotos\Alien,_resurrection.jpg" />
+    <None Remove="Images\OeuvresPhotos\Alien.png" />
+    <None Remove="Images\OeuvresPhotos\Alien_3.jpg" />
+    <None Remove="Images\OeuvresPhotos\Le_Cercle_Des_Poètes_Disparus.jpg" />
+    <None Remove="Images\OeuvresPhotos\Le_Truman_Show.jpg" />
+    <None Remove="Images\OeuvresPhotos\Lupin.jpg" />
+    <None Remove="Images\OeuvresPhotos\Lupin___Chapitre.jpg" />
+    <None Remove="Images\OeuvresPhotos\Lupin___Chapitre_1.jpg" />
+    <None Remove="Images\OeuvresPhotos\Lupin___Chapitre_2.jpg" />
+    <None Remove="Images\OeuvresPhotos\Lupin___Chapitre_4.jpg" />
+    <None Remove="Images\OeuvresPhotos\Lupin___Chapitre_5.jpg" />
+    <None Remove="Images\OeuvresPhotos\Prometheus.jpg" />
+    <None Remove="Images\OeuvresPhotos\Pulp_Fiction.jpg" />
+    <None Remove="Images\OeuvresPhotos\Scarface.jpg" />
+    <None Remove="Images\OeuvresPhotos\Star_Wars.jpg" />
+    <None Remove="Images\OeuvresPhotos\Star_Wars_Episode_II___L%27Attaque_des_Clones.jpg" />
+    <None Remove="Images\OeuvresPhotos\Star_Wars_Episode_I___La_Menace_Fantôme.jpg" />
+    <None Remove="Images\OeuvresPhotos\Star_Wars_Episode_III___La_Revanche_des_Sith.jpg" />
+    <None Remove="Images\OeuvresPhotos\Star_Wars_Episode_IV___Un_nouvel_espoir.jpg" />
+    <None Remove="Images\OeuvresPhotos\Star_Wars_Episode_V___L%27Empire_Contre-Attaque.jpg" />
+    <None Remove="Images\OeuvresPhotos\Star_Wars_Episode_VI___Le_Retour_du_Jedi.jpg" />
+    <None Remove="Images\OeuvresPhotos\Star_Wars___Prélogie.jpg" />
+    <None Remove="Images\OeuvresPhotos\Star_Wars___Trilogie.jpg" />
+    <None Remove="Images\PersonnesPhotos\Alec_Guinness.jpg" />
+    <None Remove="Images\PersonnesPhotos\Al_Pacino.jpg" />
+    <None Remove="Images\PersonnesPhotos\Bill_Paxton.jpg" />
+    <None Remove="Images\PersonnesPhotos\Brian_DePalma.jpg" />
+    <None Remove="Images\PersonnesPhotos\Bruce_Willis.jpg" />
+    <None Remove="Images\PersonnesPhotos\Carrie_Fisher.jpg" />
+    <None Remove="Images\PersonnesPhotos\Charles_Dutton.jpg" />
+    <None Remove="Images\PersonnesPhotos\Charlize_Theron.jpg" />
+    <None Remove="Images\PersonnesPhotos\David_Fincher.jpg" />
+    <None Remove="Images\PersonnesPhotos\Ethan_Hawk.jpg" />
+    <None Remove="Images\PersonnesPhotos\Ewan_McGregor.jpg" />
+    <None Remove="Images\PersonnesPhotos\George_Kay.png" />
+    <None Remove="Images\PersonnesPhotos\George_Lucas.jpg" />
+    <None Remove="Images\PersonnesPhotos\Harrison_Ford.jpg" />
+    <None Remove="Images\PersonnesPhotos\Hayden_Christensen.jpg" />
+    <None Remove="Images\PersonnesPhotos\Idris_Elba.jpg" />
+    <None Remove="Images\PersonnesPhotos\James_Cameron.jpg" />
+    <None Remove="Images\PersonnesPhotos\Jean-Pierre_Jeunet.jpg" />
+    <None Remove="Images\PersonnesPhotos\Jim_Carrey.jpg" />
+    <None Remove="Images\PersonnesPhotos\John_Travolta.jpg" />
+    <None Remove="Images\PersonnesPhotos\Katherine_Waterston.jpg" />
+    <None Remove="Images\PersonnesPhotos\Laura_Linney.jpg" />
+    <None Remove="Images\PersonnesPhotos\Liam_Neeson.jpg" />
+    <None Remove="Images\PersonnesPhotos\Ludivine_Sagnier.jpg" />
+    <None Remove="Images\PersonnesPhotos\Mark_Hamill.jpg" />
+    <None Remove="Images\PersonnesPhotos\Michael_Bienh.jpg" />
+    <None Remove="Images\PersonnesPhotos\Michael_Fassbender.jpg" />
+    <None Remove="Images\PersonnesPhotos\Michelle_Pfeiffer.jpg" />
+    <None Remove="Images\PersonnesPhotos\Natalie_Portman.jpg" />
+    <None Remove="Images\PersonnesPhotos\Noomi_Rapace.jpg" />
+    <None Remove="Images\PersonnesPhotos\Omar_Sy.jpg" />
+    <None Remove="Images\PersonnesPhotos\Peter_Weir.jpg" />
+    <None Remove="Images\PersonnesPhotos\Quentin_Tarantino.jpg" />
+    <None Remove="Images\PersonnesPhotos\Ridley_Scott.jpg" />
+    <None Remove="Images\PersonnesPhotos\Robin_Williams.jpg" />
+    <None Remove="Images\PersonnesPhotos\Samuel_L.Jackson.jpg" />
+    <None Remove="Images\PersonnesPhotos\Sigourney_Weaver.jpg" />
+    <None Remove="Images\PersonnesPhotos\Steven_Bauer.jpg" />
+    <None Remove="Images\PersonnesPhotos\Tom_Skerritt.jpg" />
+    <None Remove="Images\PersonnesPhotos\Winona_Ryder.jpg" />
+    <None Remove="Images\Photos\brad.jpg" />
+    <None Remove="Images\Photos\FC.jpg" />
+    <None Remove="Images\UsersPhotos\Antoine.png" />
+    <None Remove="Images\UsersPhotos\Kuro.png" />
+    <None Remove="Images\UsersPhotos\Nävis.png" />
+    <None Remove="Images\UsersPhotos\Sacritik.png" />
+    <None Remove="Images\UsersPhotos\Samuel.jpg" />
+    <None Remove="Ressources\MicrosoftEdgeWebView2RuntimeInstallerX64.exe" />
+    <Resource Include="Images\Logos\CINEMAIcon.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </Resource>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\JSON\JSONData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\XML\XMLData.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Alien,_Covenant.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Alien,_le_huitième_passager.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Alien,_le_retour.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Alien,_resurrection.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Alien.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Alien_3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Le_Cercle_Des_Poètes_Disparus.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Le_Truman_Show.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Lupin.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Lupin___Chapitre.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Lupin___Chapitre_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Lupin___Chapitre_2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Lupin___Chapitre_4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Lupin___Chapitre_5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Prometheus.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Pulp_Fiction.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Scarface.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Star_Wars.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Star_Wars_Episode_I___La_Menace_Fantôme.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Star_Wars_Episode_II___L'Attaque_des_Clones.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Star_Wars_Episode_III___La_Revanche_des_Sith.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Star_Wars_Episode_IV___Un_nouvel_espoir.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Star_Wars_Episode_V___L'Empire_Contre-Attaque.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Star_Wars_Episode_VI___Le_Retour_du_Jedi.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Star_Wars___Prélogie.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\OeuvresPhotos\Star_Wars___Trilogie.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Alec_Guinness.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Al_Pacino.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Bill_Paxton.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Brian_DePalma.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Bruce_Willis.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Carrie_Fisher.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Charles_Dutton.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Charlize_Theron.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\David_Fincher.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Ethan_Hawk.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Ewan_McGregor.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\George_Kay.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\George_Lucas.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Harrison_Ford.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Hayden_Christensen.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Idris_Elba.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\James_Cameron.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Jean-Pierre_Jeunet.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Jim_Carrey.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\John_Travolta.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Katherine_Waterston.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Laura_Linney.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Liam_Neeson.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Ludivine_Sagnier.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Mark_Hamill.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Michael_Bienh.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Michael_Fassbender.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Michelle_Pfeiffer.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Natalie_Portman.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Noomi_Rapace.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Omar_Sy.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Peter_Weir.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Quentin_Tarantino.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Ridley_Scott.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Robin_Williams.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Samuel_L.Jackson.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Sigourney_Weaver.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Steven_Bauer.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Tom_Skerritt.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PersonnesPhotos\Winona_Ryder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\UsersPhotos\Antoine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\UsersPhotos\Kuro.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\UsersPhotos\Nävis.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\UsersPhotos\Sacritik.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\UsersPhotos\Samuel.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ressources\MicrosoftEdgeWebView2RuntimeInstallerX64.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Logos\add.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Logos\check.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Logos\cross.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Logos\setting.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Logos\upgrade.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Logos\utilisateur.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="0.1.7" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.864.35" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataEncryption\DataEncryption.csproj" />
+    <ProjectReference Include="..\LINQ_to_Data\LINQ_to_Data.csproj" />
+    <ProjectReference Include="..\Modele\Modele.csproj" />
+    <ProjectReference Include="..\StubLib\StubLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Photos\brad.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Photos\FC.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
