@@ -60,7 +60,7 @@
                  HorizontalAlignment="Center"
                  ScrollViewer.CanContentScroll="True" 
                  ScrollViewer.VerticalScrollBarVisibility="Hidden"
-                 ItemsSource="{Binding CurrentPersonne}"
+                 ItemsSource="{Binding}"
                  SelectionChanged="Oeuvres_OnSelectionChanged">
         </ListBox>
     </DockPanel>
